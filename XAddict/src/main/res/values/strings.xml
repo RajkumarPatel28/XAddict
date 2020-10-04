@@ -3,5 +3,6 @@
     <string name="a_splashscreen_tv_title">REDUCE ABUSE</string>
     <string name="a_login_tv_title">XADDICT</string>
     <string name="a_login_tv_username">USERNAME</string>
+    <string name="a_login_tv_password">PASSWORD</string>
 
 </resources>
