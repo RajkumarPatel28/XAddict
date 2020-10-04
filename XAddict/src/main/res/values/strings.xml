@@ -1,15 +1,12 @@
 <resources>
     <string name="app_name">XAddict</string>
-<<<<<<< HEAD
 
     <string name="a_splashscreen_tv_title">REDUCE ABUSE</string>
-
     <string name="xaddict">XADDICT</string>
-
-
-=======
-    <string name="a_splashscreen_tv_title">REDUCE ABUSE</string>
     <string name="a_title_for_login_activity">XADDICT</string>
     <string name="a_username_from_user">USERNAME</string>
->>>>>>> 8bf2ca461292be051cffffef116f097c9c43e969
+
+
+
+
 </resources>
