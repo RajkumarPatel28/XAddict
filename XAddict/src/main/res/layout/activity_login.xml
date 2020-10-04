@@ -12,18 +12,19 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/a_login_tv_title"
-        android:textSize="65sp"
-        android:textStyle="bold" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/a_login_tv_username"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:hint="@string/a_login_tv_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/a_login_tv_password"
         android:textSize="24sp" />
+
 
 </LinearLayout>
