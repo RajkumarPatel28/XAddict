@@ -1,5 +1,5 @@
 package com.reduce_abuse.xaddict;
-
+// Commit by Amit Sharma
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
