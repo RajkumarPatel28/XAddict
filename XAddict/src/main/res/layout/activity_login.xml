@@ -13,7 +13,7 @@
         android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/xaddict"
+        android:text="@string/a_title_for_login_activity"
         android:textSize="65sp"
         android:textStyle="bold" />
 
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
-        android:text="Textview"
+        android:hint="@string/a_username_from_user"
         android:textSize="24sp" />
 
 </LinearLayout>
