@@ -10,8 +10,20 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:text="XADDICT"
-        android:textSize="55sp" />
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/xaddict"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Textview"
+        android:textSize="24sp" />
+
 </LinearLayout>
