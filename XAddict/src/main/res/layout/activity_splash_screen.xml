@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:textSize="55sp"
-        android:text="@string/a_splashscreen_tv_title" />
+        android:text="@string/splashscreen_title" />
 
     <ImageView
         android:id="@+id/imageView"
