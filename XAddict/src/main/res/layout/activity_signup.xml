@@ -8,16 +8,16 @@
     tools:context=".SignupActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dip"
+        android:layout_marginTop="40dip"
         android:layout_gravity="center"
         android:text="@string/signup_title"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
@@ -29,7 +29,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -41,7 +41,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -52,7 +52,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/etConfirmPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -63,7 +63,7 @@
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignup"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -71,16 +71,16 @@
         android:text="@string/signup_signupbutton" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dip"
+        android:layout_marginTop="60dip"
         android:layout_gravity="center"
         android:text="@string/signup_createaccount"
         android:textSize="12sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnProceedLogin"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
