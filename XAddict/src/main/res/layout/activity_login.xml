@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login_title"
         android:layout_marginTop="40dip"
         android:layout_gravity="center"
         android:textSize="24sp"/>
@@ -42,7 +42,7 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REMEMBER ME"
+        android:text="@string/login_rmbrcheck"
         android:layout_marginTop="60dip"
         android:layout_marginStart="65dip" />
 
@@ -52,13 +52,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dip"
         android:layout_gravity="center"
-        android:text="Login" />
+        android:text="@string/login_loginbutton" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account yet?"
+        android:text="@string/login_createaccount"
         android:layout_marginTop="60dip"
         android:layout_gravity="center"
         android:textSize="20sp"/>
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
         android:layout_gravity="center"
-        android:text="CREATE AN ACCOUNT" />
+        android:text="@string/login_createaccountbutton" />
 
 
 </LinearLayout>

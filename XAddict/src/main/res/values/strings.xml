@@ -1,19 +1,29 @@
 <resources>
     <string name="app_name">XAddict</string>
     <string name="splashscreen_title">REDUCE ABUSE</string>
+
     <string name="signup_title">SIGN UP</string>
-    <string name="loginsignup_usernamehint">USERNAME</string>
     <string name="signup_emailaddresshint">EMAIL ADDRESS</string>
-    <string name="loginsignup_passwordhint">PASSWORD</string>
     <string name="signup_confirmpasswordhint">CONFIRM PASSWORD</string>
     <string name="signup_signupbutton">SIGN UP</string>
-    <string name="signup_createaccount">Already have an account?</string>
+    <string name="signup_haveaccount">Already have an account?</string>
     <string name="signup_proceedloginbutton">PROCEED TO LOGIN</string>
+
+    <string name="login_title">Login</string>
+    <string name="login_rmbrcheck">REMEMBER ME</string>
+    <string name="login_loginbutton">Login</string>
+    <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
+    <string name="login_createaccount">Don\'t have an account yet?</string>
+
+    <string name="loginsignup_usernamehint">USERNAME</string>
+    <string name="loginsignup_passwordhint">PASSWORD</string>
+
     <string name="weed_title"> Marijuana </string>
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>
     <string name="heroin_title"> Heroin </string>
     <string name="synth_title"> Synthetics </string>
+
 
 
 </resources>
