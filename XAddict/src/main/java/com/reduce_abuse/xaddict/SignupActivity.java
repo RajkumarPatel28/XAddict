@@ -15,8 +15,8 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
        setContentView(R.layout.activity_signup);
 
 
-       Button btnSignup = (Button) findViewById(R.id.btnSignup);
-       Button btnProceedLogin = (Button) findViewById(R.id.btnProceedLogin);
+       Button btnSignup = findViewById(R.id.btnSignup);
+       Button btnProceedLogin = findViewById(R.id.btnProceedLogin);
 
        btnSignup.setOnClickListener(this);
        btnProceedLogin.setOnClickListener(this);
@@ -27,17 +27,14 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
         Intent intent = null;
 
-        switch(v.getId())
+        switch(v.getId()) // Temporarily merged
         {
             case R.id.btnSignup:
-                // Add logic
-                break;
             case R.id.btnProceedLogin:
                 intent = new Intent(SignupActivity.this, LoginActivity.class);
-                startActivity(intent);
                 break;
         }
 
-
+        startActivity(intent);
     }
 }
