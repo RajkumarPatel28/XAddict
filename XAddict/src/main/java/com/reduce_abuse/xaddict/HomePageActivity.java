@@ -14,11 +14,4 @@ public class HomePageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.game_menu, menu);
-        return true;
-    }
-
 }
