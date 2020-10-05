@@ -3,12 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rvHomePage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".HomePageActivity">
-
 
         <ImageView
             android:layout_width="75dp"
@@ -35,5 +33,10 @@
             android:layout_marginEnd="13.75dp"
             android:layout_gravity="bottom"
             android:src="@drawable/settings"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHomePage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 </LinearLayout>
