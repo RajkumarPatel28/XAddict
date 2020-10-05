@@ -7,34 +7,69 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:text="Login"
+        android:layout_marginTop="40dip"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dip"
         android:layout_gravity="center"
         android:ems="14"
-        android:hint="USERNAME"
-        android:inputType="textPersonName" />
+        android:hint="@string/loginsignup_usernamehint"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
+        android:layout_gravity="center"
+        android:ems="14"
+        android:hint="@string/loginsignup_passwordhint"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMEMBER ME"
+        android:layout_marginTop="60dip"
+        android:layout_marginStart="65dip" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_gravity="center"
+        android:text="Login" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="70dp"
-        android:text="UNAME"
-        android:textSize="24sp" />
+        android:text="Don't have an account yet?"
+        android:layout_marginTop="60dip"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
 
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dip"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="90dp"
-        android:text="PASS"
-        android:textSize="24sp" />
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:text="CREATE AN ACCOUNT" />
 
 
 </LinearLayout>
