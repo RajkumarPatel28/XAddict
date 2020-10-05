@@ -17,7 +17,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etSignupUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
@@ -29,7 +29,7 @@
 
 
     <EditText
-        android:id="@+id/etEmailAddress"
+        android:id="@+id/etSignupEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -41,7 +41,7 @@
 
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etSignupPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -52,7 +52,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/etConfirmPassword"
+        android:id="@+id/etSignupConfirmPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
@@ -71,7 +71,7 @@
         android:text="@string/signup_signupbutton" />
 
     <TextView
-        android:id="@+id/tvCreateAccount"
+        android:id="@+id/tvSignupHaveAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dip"
@@ -80,7 +80,7 @@
         android:textSize="12sp" />
 
     <Button
-        android:id="@+id/btnProceedLogin"
+        android:id="@+id/btnSignupProceedLogin"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

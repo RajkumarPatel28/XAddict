@@ -8,7 +8,7 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_title"
@@ -17,7 +17,7 @@
         android:textSize="24sp"/>
 
     <EditText
-        android:id="@+id/editTextUsername"
+        android:id="@+id/etLoginUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dip"
@@ -28,7 +28,7 @@
         android:importantForAutofill="no"/>
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/etLoginPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dip"
@@ -39,7 +39,7 @@
         android:importantForAutofill="no"/>
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_rmbrcheck"
@@ -47,7 +47,7 @@
         android:layout_marginStart="65dip" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dip"
@@ -55,7 +55,7 @@
         android:text="@string/login_loginbutton" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvLoginCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_createaccount"
@@ -64,7 +64,7 @@
         android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLoginProceedSignup"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
