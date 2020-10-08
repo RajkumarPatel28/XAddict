@@ -8,31 +8,38 @@
     android:background="@drawable/background"
     tools:context=".HomepageActivity">
 
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginStart="17.75dp"
-            android:src="@drawable/home" />
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/homesized"/>
+
+        <ImageButton
+            android:id="@+id/drugsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:src="@drawable/drugs"/>
-        <ImageView
-             android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/drugsized"/>
+
+        <ImageButton
+            android:id="@+id/notesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:layout_gravity="bottom"
-            android:src="@drawable/notes"/>
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
-            android:layout_marginEnd="13.75dp"
+            android:src="@drawable/notesized" />
+
+        <ImageButton
+            android:id="@+id/settingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_gravity="bottom"
-            android:src="@drawable/settings"/>
+            android:src="@drawable/settingsized"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvHomePage"
