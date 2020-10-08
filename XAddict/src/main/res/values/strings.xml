@@ -2,7 +2,7 @@
     <string name="app_name">XAddict</string>
     <string name="splashscreen_title">REDUCE ABUSE</string>
 
-    <string name="signup_title">SIGN UP</string>
+    <string name="signup_title">Sign up</string>
     <string name="signup_emailaddresshint">EMAIL ADDRESS</string>
     <string name="signup_confirmpasswordhint">CONFIRM PASSWORD</string>
     <string name="signup_signupbutton">SIGN UP</string>
