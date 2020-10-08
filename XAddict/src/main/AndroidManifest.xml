@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomePageActivity" />
+        <activity android:name=".MethActivity"></activity>
+        <activity android:name=".HeroinActivity" />
+        <activity android:name=".OpioidsActivity" />
+        <activity android:name=".SyntheticsActivity" />
+        <activity android:name=".CocaineActivity" />
+        <activity android:name=".MarijuanaActivity" />
+        <activity android:name=".DrugsListActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".PersonalNotesActivity" />
+        <activity android:name=".HomepageActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".SplashScreenActivity">

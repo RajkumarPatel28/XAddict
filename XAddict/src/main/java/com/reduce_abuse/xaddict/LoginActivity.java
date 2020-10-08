@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch(v.getId())
         {
             case R.id.btnLogin:
-                intent = new Intent(LoginActivity.this, HomePageActivity.class);
+                intent = new Intent(LoginActivity.this, HomepageActivity.class);
                 break;
 
             case R.id.btnLoginProceedSignup:
