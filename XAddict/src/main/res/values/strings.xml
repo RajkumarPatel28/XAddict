@@ -23,10 +23,12 @@
     <string name="opioids_title"> Opioids </string>
     <string name="heroin_title"> Heroin </string>
     <string name="synth_title"> Synthetics </string>
+    <string name="cocaine_title"> Cocaine </string>
 
     <string name="common_title"> Common Drugs </string>
     <string name="personalNotes_title">Personal Notes</string>
     <string name="personalnotes_importbutton">IMPORT</string>
+    <string name="cocaine_moreinformationbutton">More Information</string>
 
 
 </resources>
