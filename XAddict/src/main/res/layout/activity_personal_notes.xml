@@ -16,11 +16,45 @@
         android:text="@string/personalNotes_title"
         android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/btnImport"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/personalnotes_importbutton" />
+        android:layout_marginTop="40dip"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/personalnotes_importbutton" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_gravity="center"
+        android:text="@string/personalnotes_exportbutton" />
+
+    <Button
+        android:id="@+id/btnDeleteNote"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_gravity="center"
+        android:text="@string/personalnotes_deletenotebutton" />
 
 
 </LinearLayout>

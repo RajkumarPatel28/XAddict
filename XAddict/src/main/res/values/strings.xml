@@ -35,5 +35,9 @@
     <string name="homepage_title">Explore</string>
     <string name="homepage_talkbutton">TALK TO SOMEONE</string>
 
+    <string name="personalnotes_deletenotebutton">Delete Note</string>
+    <string name="personalnotes_exportbutton">Export</string>
+
+
 
 </resources>
