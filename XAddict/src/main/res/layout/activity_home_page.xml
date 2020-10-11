@@ -9,7 +9,19 @@
     tools:context=".HomepageActivity">
 
 
+        <Button
+            android:id="@+id/CallBtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="55dp"
+            android:backgroundTint="#4C1717"
+            android:onClick="callIntent"
+            android:text="TALK TO SOMEONE"
+            app:layout_constraintTop_toBottomOf="@+id/textView"></Button>
+
         <ImageButton
+            android:id="@+id/homeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -22,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginStart="5dp"
-            android:src="@drawable/drugsized"/>
+            android:src="@drawable/drugsized" />
 
         <ImageButton
             android:id="@+id/notesBtn"
@@ -44,6 +56,8 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvHomePage"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+        </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
