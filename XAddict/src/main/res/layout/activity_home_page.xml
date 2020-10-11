@@ -7,25 +7,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".HomepageActivity">
-
-
-        <Button
-            android:id="@+id/CallBtn"
-            android:layout_width="300dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="55dp"
-            android:backgroundTint="#4C1717"
-            android:onClick="callIntent"
-            android:text="TALK TO SOMEONE"
-            app:layout_constraintTop_toBottomOf="@+id/textView"></Button>
-
+        
         <ImageButton
             android:id="@+id/homeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="5dip"
             android:src="@drawable/homesized"/>
 
         <ImageButton
@@ -33,14 +21,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="5dip"
             android:src="@drawable/drugsized" />
 
         <ImageButton
             android:id="@+id/notesBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="5dip"
             android:layout_gravity="bottom"
             android:src="@drawable/notesized" />
 
@@ -48,16 +36,9 @@
             android:id="@+id/settingsBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip"
             android:layout_gravity="bottom"
             android:src="@drawable/settingsized"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvHomePage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-        </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
