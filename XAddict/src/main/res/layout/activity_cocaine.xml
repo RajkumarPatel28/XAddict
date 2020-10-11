@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context=".HomepageActivity">
+    tools:context=".CocaineActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +25,6 @@
         android:layout_marginTop="450dip"
         android:backgroundTint="#3B1416"
         android:text="@string/cocaine_moreinformationbutton" />
-
 
 
 </LinearLayout>
