@@ -24,5 +24,7 @@
     <string name="heroin_title"> Heroin </string>
     <string name="synth_title"> Synthetics </string>
 
+    <string name="common_title"> Common Drugs </string>
+
 
 </resources>
