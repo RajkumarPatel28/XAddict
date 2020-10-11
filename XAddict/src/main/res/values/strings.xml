@@ -32,6 +32,7 @@
     <string name="heroin_moreinformationbutton">More Information</string>
     <string name="settings_title">Settings</string>
     <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="homepage_title">Explore</string>
 
 
 </resources>

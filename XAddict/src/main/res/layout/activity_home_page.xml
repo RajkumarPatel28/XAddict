@@ -1,44 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     android:background="@drawable/background"
     tools:context=".HomepageActivity">
-        
-        <ImageButton
-            android:id="@+id/homeBtn"
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="5dip"
-            android:src="@drawable/homesized"/>
+            android:orientation="vertical"
+            android:layout_marginTop="40dip"
+            android:layout_marginLeft="165dip"
+            android:gravity="center">
 
-        <ImageButton
-            android:id="@+id/drugsBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="5dip"
-            android:src="@drawable/drugsized" />
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homepage_title"
+                    android:textSize="24sp" />
+        </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/notesBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dip"
-            android:layout_gravity="bottom"
-            android:src="@drawable/notesized" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <ImageButton
-            android:id="@+id/settingsBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dip"
-            android:layout_marginEnd="5dip"
-            android:layout_gravity="bottom"
-            android:src="@drawable/settingsized"/>
+                <ImageButton
+                    android:id="@+id/homeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/homesized" />
 
-</LinearLayout>
+                <ImageButton
+                    android:id="@+id/drugsBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/drugsized" />
+
+                <ImageButton
+                    android:id="@+id/notesBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/notesized" />
+
+                <ImageButton
+                    android:id="@+id/settingsBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:layout_marginEnd="5dip"
+                    android:src="@drawable/settingsized" />
+
+        </LinearLayout>
+
+</RelativeLayout>
+
