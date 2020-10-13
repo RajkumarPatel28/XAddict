@@ -27,7 +27,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dip"
-            android:text="@string/personalnotes_importbutton" />
+            android:text="@string/personalnotes_importbutton"
+            android:backgroundTint="@color/colorAccent"/>
 
         <EditText
             android:id="@+id/etPersonalNotesFileName"
@@ -46,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        android:text="@string/personalnotes_exportbutton" />
+        android:text="@string/personalnotes_exportbutton"
+        android:backgroundTint="@color/colorAccent"/>
 
     <Button
         android:id="@+id/btnDeleteNote"
@@ -54,7 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        android:text="@string/personalnotes_deletenotebutton" />
+        android:text="@string/personalnotes_deletenotebutton"
+        android:backgroundTint="@color/colorAccent"/>
 
 
 </LinearLayout>

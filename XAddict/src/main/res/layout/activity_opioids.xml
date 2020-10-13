@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="450dip"
-        android:backgroundTint="#3B1416"
+        android:backgroundTint="@color/colorAccent"
         android:text="@string/opioids_more_information" />
 
 
