@@ -52,7 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dip"
         android:layout_gravity="center"
-        android:text="@string/login_loginbutton" />
+        android:text="@string/login_loginbutton"
+        android:backgroundTint="@color/colorAccent"/>
 
     <TextView
         android:id="@+id/tvLoginCreateAccount"
@@ -69,7 +70,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
         android:layout_gravity="center"
-        android:text="@string/login_createaccountbutton" />
+        android:text="@string/login_createaccountbutton"
+        android:backgroundTint="@color/colorAccent"/>
 
 
 </LinearLayout>
