@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="450dip"
         android:layout_gravity="center"
+        android:backgroundTint="#3B1416"
         android:text="@string/heroin_moreinformationbutton" />
 
 </LinearLayout>
