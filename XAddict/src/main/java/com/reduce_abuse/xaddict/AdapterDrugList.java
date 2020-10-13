@@ -39,12 +39,15 @@ public class AdapterDrugList extends RecyclerView.Adapter<AdapterDrugList.ViewDr
 
     @Override
     public void onBindViewHolder(@NonNull ViewDrugList holder, int position) {
+        holder.DrugNameText.setText(DataDrugName[position]);
+        holder.DrugDescripitionText.setText(DataDrugDescripition[position]);
+        holder.DrugImages.setImageResource(Images[position]);
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return DataDrugName.length;
     }
 
     public class ViewDrugList extends RecyclerView.ViewHolder {
@@ -54,6 +57,10 @@ public class AdapterDrugList extends RecyclerView.Adapter<AdapterDrugList.ViewDr
 
         public ViewDrugList(@NonNull View itemView) {
             super(itemView);
+
+            DrugNameText = itemView.findViewById(R.id.DrugNameText);
+            DrugDescripitionText = itemView.findViewById(R.id.DrugDescripitionText);
+            DrugImages = itemView.findViewById(R.id.DrugImages);
         }
     }
 }

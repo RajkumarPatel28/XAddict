@@ -1,6 +1,7 @@
 package com.reduce_abuse.xaddict;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -23,6 +24,8 @@ public class DrugsListActivity extends AppCompatActivity {
         DrugDescripition = getResources().getStringArray(R.array.DrugsList_DrugDescripition);
 
         AdapterDrugList AdapterDrugList = new AdapterDrugList(this,DrugName, DrugDescripition, Images);
+        recyclerView.setAdapter(AdapterDrugList);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }
 }
