@@ -37,12 +37,12 @@
 
     <string name="personalnotes_deletenotebutton">Delete Note</string>
     <string name="personalnotes_exportbutton">Export</string>
-<<<<<<< HEAD
 
-=======
+
+
     <string name="meth_more_information">More Information</string>
     <string name="opioids_more_information">More Information</string>
->>>>>>> 6f106f869139f4e8b85253885ba0eedd7298486a
+
 
 
 </resources>
