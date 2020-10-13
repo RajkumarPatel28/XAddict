@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="40dip"
-            android:layout_marginLeft="165dip"
+            android:layout_marginStart="165dip"
             android:gravity="center">
 
                 <TextView
@@ -28,12 +28,12 @@
                     android:layout_width="300dip"
                     android:layout_height="70dip"
                     android:layout_marginTop="200dip"
-                    android:layout_marginLeft="55dip"
+                    android:layout_marginStart="55dip"
                     android:layout_gravity="center"
                     android:orientation="vertical">
 
                         <Button
-                            android:id="@+id/button"
+                            android:id="@+id/btnCall"
                             android:layout_width="350dip"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
