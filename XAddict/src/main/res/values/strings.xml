@@ -22,7 +22,27 @@
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>
     <string name="heroin_title"> Heroin </string>
-    <string name="synth_title"> Synthetics </string>
+    <string name="synth_title"> Synthetics (MDMA)</string>
+    <string name="cocaine_title"> Cocaine </string>
+
+    <string name="common_title"> Common Drugs </string>
+    <string name="personalNotes_title">Personal Notes</string>
+    <string name="personalnotes_importbutton">IMPORT</string>
+    <string name="cocaine_moreinformationbutton">More Information</string>
+    <string name="heroin_moreinformationbutton">More Information</string>
+    <string name="settings_title">Settings</string>
+    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="homepage_title">Explore</string>
+    <string name="homepage_talkbutton">TALK TO SOMEONE</string>
+
+    <string name="personalnotes_deletenotebutton">Delete Note</string>
+    <string name="personalnotes_exportbutton">Export</string>
+<<<<<<< HEAD
+
+=======
+    <string name="meth_more_information">More Information</string>
+    <string name="opioids_more_information">More Information</string>
+>>>>>>> 6f106f869139f4e8b85253885ba0eedd7298486a
 
 
 </resources>

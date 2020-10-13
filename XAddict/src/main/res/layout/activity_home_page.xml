@@ -1,42 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     android:background="@drawable/background"
     tools:context=".HomepageActivity">
 
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="17.75dp"
-            android:src="@drawable/home" />
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
-            android:layout_gravity="bottom"
-            android:src="@drawable/drugs"/>
-        <ImageView
-             android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
-            android:layout_gravity="bottom"
-            android:src="@drawable/notes"/>
-        <ImageView
-            android:layout_width="75dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="27.5dp"
-            android:layout_marginEnd="13.75dp"
-            android:layout_gravity="bottom"
-            android:src="@drawable/settings"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dip"
+            android:layout_marginLeft="165dip"
+            android:gravity="center">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvHomePage"
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homepage_title"
+                    android:textSize="24sp" />
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dip"
+                    android:layout_height="70dip"
+                    android:layout_marginTop="200dip"
+                    android:layout_marginLeft="55dip"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="350dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#3B1416"
+                            android:text="@string/homepage_talkbutton" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
 
-</LinearLayout>
+                <ImageButton
+                    android:id="@+id/homeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/homesized" />
+
+
+                <ImageButton
+                    android:id="@+id/drugsBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/drugsized" />
+
+                <ImageButton
+                    android:id="@+id/notesBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:src="@drawable/notesized" />
+
+                <ImageButton
+                    android:id="@+id/settingsBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="5dip"
+                    android:layout_marginEnd="5dip"
+                    android:src="@drawable/settingsized" />
+
+        </LinearLayout>
+
+</RelativeLayout>
+
