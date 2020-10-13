@@ -36,16 +36,27 @@
             android:layout_height="wrap_content"
             android:ems="12"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="" />
 
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="400dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:background="@android:drawable/edit_text"
+        android:textColor="@android:color/primary_text_light"
+        android:ems="17"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnExport"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="10dip"
         android:layout_gravity="center"
         android:text="@string/personalnotes_exportbutton"
         android:backgroundTint="@color/colorAccent"/>
@@ -54,10 +65,9 @@
         android:id="@+id/btnDeleteNote"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="10dip"
         android:layout_gravity="center"
         android:text="@string/personalnotes_deletenotebutton"
         android:backgroundTint="@color/colorAccent"/>
-
 
 </LinearLayout>
