@@ -37,7 +37,8 @@
 
     <string name="personalnotes_deletenotebutton">Delete Note</string>
     <string name="personalnotes_exportbutton">Export</string>
-
+    <string name="meth_more_information">More Information</string>
+    <string name="opioids_more_information">More Information</string>
 
 
 </resources>
