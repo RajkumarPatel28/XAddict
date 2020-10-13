@@ -18,7 +18,6 @@
     <string name="loginsignup_usernamehint">USERNAME</string>
     <string name="loginsignup_passwordhint">PASSWORD</string>
 
-    <string name="weed_title"> Marijuana </string>
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>
     <string name="heroin_title"> Heroin </string>
