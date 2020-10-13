@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">XAddict</string>
+    <string name="splashscreen_title">REDUCE ABUSE</string>
+
+    <string name="signup_title">S\'inscrire</string>
+    <string name="signup_emailaddresshint">ADRESSE ÉLECTRONIQUE</string>
+    <string name="signup_confirmpasswordhint">CONFIRMEZ LE MOT DE PASSE</string>
+    <string name="signup_signupbutton">S\'INSCRIRE</string>
+    <string name="signup_haveaccount">Vous avez déjà un compte?</string>
+    <string name="signup_proceedloginbutton">PROCÉDER À LA CONNEXION</string>
+
+    <string name="login_title">S\'identifier</string>
+    <string name="login_rmbrcheck">SOUVIENS-TOI DE MOI</string>
+    <string name="login_loginbutton">S\'identifier</string>
+    <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
+    <string name="login_createaccount">Vous n\'avez pas encore de compte?</string>
+
+    <string name="loginsignup_usernamehint">NOM D\'UTILISATEUR</string>
+    <string name="loginsignup_passwordhint">MOT DE PASSE</string>
+
+    <string name="meth_title"> Meth </string>
+    <string name="opioids_title"> Opioïdes </string>
+    <string name="heroin_title"> Héroïne </string>
+    <string name="synth_title"> Synthétiques (MDMA)</string>
+    <string name="cocaine_title"> Cocaïne </string>
+    <string name="marijuana_title"> Marijuana </string>
+
+    <string name="common_title"> Médicaments courants </string>
+    <string name="personalNotes_title">Notes personnelles</string>
+    <string name="personalnotes_importbutton">IMPORTER</string>
+    <string name="settings_title">Réglages</string>
+    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="homepage_title">Explorer</string>
+    <string name="homepage_talkbutton">PARLER À QUELQU\'UN</string>
+
+    <string name="personalnotes_deletenotebutton">Supprimer la note</string>
+    <string name="personalnotes_exportbutton">Exportation</string>
+
+    <string name="meth_more_information">Plus d\'information</string>
+    <string name="opioids_more_information">Plus d\'information</string>
+    <string name="marijuana_moreinformtionbutton">Plus d\'information</string>
+    <string name="cocaine_moreinformationbutton">Plus d\'information</string>
+    <string name="heroin_moreinformationbutton">Plus d\'information</string>
+
+    <string-array name="DrugsList_DrugName">
+        <item>cocaine</item>
+        <item>héroïne</item>
+        <item>marijuana</item>
+        <item>synthétiques (mdma)</item>
+        <item>meth</item>
+        <item>opioïdes (oxycodone)</item>
+    </string-array>
+
+    <string-array name="DrugsList_DrugDescripition">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

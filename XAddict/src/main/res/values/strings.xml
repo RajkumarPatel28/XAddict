@@ -37,8 +37,6 @@
     <string name="personalnotes_deletenotebutton">Delete Note</string>
     <string name="personalnotes_exportbutton">Export</string>
 
-
-
     <string name="meth_more_information">More Information</string>
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>
@@ -46,11 +44,11 @@
 
     <string-array name="DrugsList_DrugName">
         <item>cocaine</item>
-        <item>herion</item>
+        <item>heroin</item>
         <item>marijuana</item>
         <item>mdma</item>
         <item>meth</item>
-        <item>opiodios</item>
+        <item>opioids</item>
     </string-array>
 
     <string-array name="DrugsList_DrugDescripition">
@@ -61,6 +59,4 @@
         <item></item>
         <item></item>
     </string-array>
-
-
 </resources>
