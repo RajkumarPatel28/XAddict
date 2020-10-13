@@ -44,6 +44,22 @@
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
 
+    <string-array name="DrugsList_DrugName">
+        <item>cocaine</item>
+        <item>herion</item>
+        <item>marijuana</item>
+        <item>mdma</item>
+        <item>meth</item>
+        <item>opiodios</item>
+    </string-array>
+
+    <string-array name="DrugsList_DrugDescripition">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
 
 
 </resources>
