@@ -16,10 +16,10 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
 
        Button btnSignup = findViewById(R.id.btnSignup);
-       Button btnSignupProceedLogin = findViewById(R.id.btnSignupProceedLogin);
+       Button btnProceedLogin = findViewById(R.id.btnProceedLogin);
 
        btnSignup.setOnClickListener(this);
-       btnSignupProceedLogin.setOnClickListener(this);
+       btnProceedLogin.setOnClickListener(this);
     }
 
     @Override
@@ -27,10 +27,10 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
         Intent intent = null;
 
-        switch(v.getId()) // Temporarily merged
+        switch(v.getId())
         {
             case R.id.btnSignup:
-            case R.id.btnSignupProceedLogin:
+            case R.id.btnProceedLogin:
                 intent = new Intent(SignupActivity.this, LoginActivity.class);
                 break;
         }
