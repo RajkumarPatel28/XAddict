@@ -13,7 +13,6 @@
     <string name="login_createaccount">Don\'t have an account yet?</string>
 
     <string name="loginsignup_emailaddresshint">Email Address</string>
-    <string name="loginsignup_usernamehint">Username</string>
     <string name="loginsignup_passwordhint">Password</string>
 
     <string name="meth_title"> Meth </string>

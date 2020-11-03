@@ -11,10 +11,10 @@
         android:id="@+id/etLoginEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dip"
+        android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
-        android:hint="@string/login_emailaddresshint"
+        android:hint="@string/loginsignup_emailaddresshint"
         android:inputType="textEmailAddress"
         android:importantForAutofill="no"/>
 
@@ -22,7 +22,7 @@
         android:id="@+id/etLoginPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dip"
+        android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
         android:hint="@string/loginsignup_passwordhint"
@@ -31,12 +31,12 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="350dip"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        android:text="@string/login_loginbutton"
-        android:backgroundTint="@color/colorAccent"/>
+        style="@style/ButtonStyle"
+        android:text="@string/login_loginbutton"/>
 
     <TextView
         android:id="@+id/tvLoginCreateAccount"
@@ -45,24 +45,24 @@
         android:text="@string/login_createaccount"
         android:layout_marginTop="60dip"
         android:layout_gravity="center"
-        android:textSize="20sp"/>
+        android:textSize="12sp"/>
 
     <Button
         android:id="@+id/btnLoginProceedSignup"
-        android:layout_width="350dip"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
         android:layout_gravity="center"
-        android:text="@string/login_createaccountbutton"
-        android:backgroundTint="@color/colorAccent"/>
+        android:layout_marginTop="10dip"
+        style="@style/ButtonStyle"
+        android:text="@string/login_createaccountbutton"/>
 
     <Button
         android:id="@+id/btnLoginForgotPassword"
-        android:layout_width="350dip"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        android:text="@string/login_forgotpasswordbutton"
-        android:backgroundTint="@color/colorAccent"/>
+        style="@style/ButtonStyle"
+        android:text="@string/login_forgotpasswordbutton"/>
 
 </LinearLayout>
