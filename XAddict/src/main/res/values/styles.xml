@@ -7,7 +7,7 @@
     </style>
 
     <style name="EditTextStyle" parent="@android:style/Widget.EditText">
-        <item name="android:backgroundTint"></item>
-        <item name="android:textColor"></item>
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
     </style>
 </resources>
