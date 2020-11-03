@@ -1,14 +1,14 @@
-package com.reduce_abuse.xaddict;
+package com.reduceabuse.xaddict;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PersonalNotesActivity extends AppCompatActivity {
+public class SettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_personal_notes);
+        setContentView(R.layout.activity_settings);
     }
 }

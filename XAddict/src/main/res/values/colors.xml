@@ -3,6 +3,7 @@
     <color name="colorPrimary">#3b1416</color> // app name background color
     <color name="colorPrimaryDark">#3b1416</color>// top background color
     <color name="colorAccent">#3b1416</color>
+    <color name="colorWhite">#ffffff</color>
 
 
 </resources>
