@@ -1,10 +1,10 @@
 package com.reduce_abuse.xaddict;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.recyclerview.widget.LinearLayoutManager;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
 public class DrugsListActivity extends AppCompatActivity {
 
