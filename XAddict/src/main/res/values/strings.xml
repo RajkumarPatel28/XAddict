@@ -2,7 +2,7 @@
     <string name="app_name">XAddict</string>
     <string name="splashscreen_title">REDUCE ABUSE</string>
 
-    <string name="signup_emailaddresshint">Email Address</string>
+
     <string name="signup_confirmpasswordhint">Confirm Password</string>
     <string name="signup_signupbutton">SIGN UP</string>
     <string name="signup_haveaccount">Already have an account?</string>
@@ -12,6 +12,7 @@
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
     <string name="login_createaccount">Don\'t have an account yet?</string>
 
+    <string name="loginsignup_emailaddresshint">Email Address</string>
     <string name="loginsignup_usernamehint">Username</string>
     <string name="loginsignup_passwordhint">Password</string>
 
@@ -38,7 +39,6 @@
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
-    <string name="login_emailaddresshint">EMAIL ADDRESS</string>
     <string name="login_forgotpasswordbutton">Forgot Password?</string>
 
     <string-array name="DrugsList_DrugName">

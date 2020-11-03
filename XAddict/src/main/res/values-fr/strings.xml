@@ -2,19 +2,16 @@
     <string name="app_name">XAddict</string>
     <string name="splashscreen_title">REDUCE ABUSE</string>
 
-    <string name="signup_title">S\'inscrire</string>
-    <string name="signup_emailaddresshint">ADRESSE ÉLECTRONIQUE</string>
     <string name="signup_confirmpasswordhint">CONFIRMEZ LE MOT DE PASSE</string>
     <string name="signup_signupbutton">S\'INSCRIRE</string>
     <string name="signup_haveaccount">Vous avez déjà un compte?</string>
     <string name="signup_proceedloginbutton">PROCÉDER À LA CONNEXION</string>
 
-    <string name="login_title">S\'identifier</string>
-    <string name="login_rmbrcheck">SOUVIENS-TOI DE MOI</string>
     <string name="login_loginbutton">S\'identifier</string>
     <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
     <string name="login_createaccount">Vous n\'avez pas encore de compte?</string>
 
+    <string name="loginsignup_emailaddresshint">ADRESSE ÉLECTRONIQUE</string>
     <string name="loginsignup_usernamehint">NOM D\'UTILISATEUR</string>
     <string name="loginsignup_passwordhint">MOT DE PASSE</string>
 

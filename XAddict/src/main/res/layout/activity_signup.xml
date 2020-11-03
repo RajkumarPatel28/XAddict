@@ -15,8 +15,8 @@
         android:layout_gravity="center"
         android:ems="14"
         style="@style/EditTextStyle"
-        android:hint="@string/signup_emailaddresshint"
         android:inputType="textEmailAddress"
+        android:hint="@string/loginsignup_emailaddresshint"
         android:importantForAutofill="no" />
 
     <EditText
@@ -26,6 +26,7 @@
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
+        style="@style/EditTextStyle"
         android:hint="@string/loginsignup_passwordhint"
         android:inputType="textPassword"
         android:importantForAutofill="no" />
@@ -37,6 +38,7 @@
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
+        style="@style/EditTextStyle"
         android:hint="@string/signup_confirmpasswordhint"
         android:inputType="textPassword"
         android:importantForAutofill="no" />
@@ -56,6 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dip"
         android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
         android:text="@string/signup_haveaccount"
         android:textSize="12sp" />
 
@@ -63,8 +66,9 @@
         android:id="@+id/btnProceedLogin"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
         android:layout_gravity="center"
-        android:text="@string/signup_proceedloginbutton"
-        android:backgroundTint="@color/colorAccent"/>
+        style="@style/ButtonStyle"
+        android:text="@string/signup_proceedloginbutton" />
 
 </LinearLayout>
