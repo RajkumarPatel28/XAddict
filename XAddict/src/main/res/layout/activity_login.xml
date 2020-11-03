@@ -7,24 +7,15 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <TextView
-        android:id="@+id/tvLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_title"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center"
-        android:textSize="24sp"/>
-
     <EditText
-        android:id="@+id/etLoginUsername"
+        android:id="@+id/etLoginEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dip"
         android:layout_gravity="center"
         android:ems="14"
-        android:hint="@string/loginsignup_usernamehint"
-        android:inputType="textPersonName"
+        android:hint="@string/login_emailaddresshint"
+        android:inputType="textEmailAddress"
         android:importantForAutofill="no"/>
 
     <EditText
@@ -38,19 +29,11 @@
         android:inputType="textPassword"
         android:importantForAutofill="no"/>
 
-    <CheckBox
-        android:id="@+id/cbLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_rmbrcheck"
-        android:layout_marginTop="60dip"
-        android:layout_marginStart="65dip" />
-
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dip"
+        android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:text="@string/login_loginbutton"
         android:backgroundTint="@color/colorAccent"/>
@@ -73,5 +56,13 @@
         android:text="@string/login_createaccountbutton"
         android:backgroundTint="@color/colorAccent"/>
 
+    <Button
+        android:id="@+id/btnLoginForgotPassword"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:text="@string/login_forgotpasswordbutton"
+        android:backgroundTint="@color/colorAccent"/>
 
 </LinearLayout>

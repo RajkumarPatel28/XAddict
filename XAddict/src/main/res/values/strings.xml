@@ -8,9 +8,7 @@
     <string name="signup_haveaccount">Already have an account?</string>
     <string name="signup_proceedloginbutton">PROCEED TO LOGIN</string>
 
-    <string name="login_title">Login</string>
-    <string name="login_rmbrcheck">REMEMBER ME</string>
-    <string name="login_loginbutton">Login</string>
+    <string name="login_loginbutton">LOGIN</string>
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
     <string name="login_createaccount">Don\'t have an account yet?</string>
 
@@ -40,6 +38,8 @@
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
+    <string name="login_emailaddresshint">EMAIL ADDRESS</string>
+    <string name="login_forgotpasswordbutton">Forgot Password?</string>
 
     <string-array name="DrugsList_DrugName">
         <item>cocaine</item>
