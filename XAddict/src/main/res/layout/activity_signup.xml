@@ -71,7 +71,7 @@
 
     <Button
         android:id="@+id/btnProceedLogin"
-        android:layout_width="350dip"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dip"
         android:layout_gravity="center"
