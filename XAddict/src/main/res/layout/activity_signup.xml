@@ -7,15 +7,6 @@
     android:orientation="vertical"
     tools:context=".SignupActivity">
 
-    <TextView
-        android:id="@+id/tvSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center"
-        android:text="@string/signup_title"
-        android:textSize="24sp" />
-
     <EditText
         android:id="@+id/etEmailAddress"
         android:layout_width="wrap_content"
