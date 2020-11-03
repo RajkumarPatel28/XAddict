@@ -8,6 +8,14 @@
 
     <style name="EditTextStyle" parent="@android:style/Widget.EditText">
         <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
         <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
