@@ -67,7 +67,7 @@
         android:layout_gravity="center"
         android:textColor="@color/colorWhite"
         android:text="@string/signup_haveaccount"
-        android:textSize="14sp" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnProceedLogin"
