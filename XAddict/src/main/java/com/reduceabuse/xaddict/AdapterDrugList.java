@@ -52,32 +52,32 @@ public class AdapterDrugList extends RecyclerView.Adapter<AdapterDrugList.ViewDr
                 switch (position)
                 {
                     case 0:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, CocaineActivity.class);
                         context.startActivity(intent);
                         break;
 
                     case 1:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, HeroinActivity.class);
                         context.startActivity(intent);
                         break;
 
                     case 2:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, MarijuanaActivity.class);
                         context.startActivity(intent);
                         break;
 
                     case 3:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, SyntheticsActivity.class);
                         context.startActivity(intent);
                         break;
 
                     case 4:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, MethActivity.class);
                         context.startActivity(intent);
                         break;
 
                     case 5:
-                        intent = new Intent(context, LoginActivity.class);
+                        intent = new Intent(context, OpioidsActivity.class);
                         context.startActivity(intent);
                         break;
 
