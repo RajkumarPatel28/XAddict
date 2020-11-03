@@ -14,7 +14,14 @@
     <style name="ButtonStyle" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/round_button</item>
         <item name="android:textColor">@color/colorButtonText</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AppNameTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">50sp</item>
     </style>
 </resources>
