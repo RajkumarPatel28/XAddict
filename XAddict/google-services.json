@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "545381457559",
+    "firebase_url": "https://xaddict-33ce3.firebaseio.com",
+    "project_id": "xaddict-33ce3",
+    "storage_bucket": "xaddict-33ce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545381457559:android:3cc29a5326ee2cf29893d2",
+        "android_client_info": {
+          "package_name": "com.reduceabuse.xaddict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545381457559-rrrnj3rd07aiofvhpq7qdpv6t02lh23h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnUbUOB0-N_XKC_794CpVnIffz_cslmnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545381457559-rrrnj3rd07aiofvhpq7qdpv6t02lh23h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
