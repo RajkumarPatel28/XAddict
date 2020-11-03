@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#3b1416</color> // app name background color
     <color name="colorPrimaryDark">#3f4e75</color>
-    <color name="colorAccent">#3b1416</color>
+    <color name="colorAccent">#3f4e75</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorButtonText">#614385</color>
 
