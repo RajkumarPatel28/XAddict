@@ -14,6 +14,7 @@
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
+        style="@style/EditTextStyle"
         android:hint="@string/loginsignup_emailaddresshint"
         android:inputType="textEmailAddress"
         android:importantForAutofill="no"/>
@@ -25,6 +26,7 @@
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
         android:ems="14"
+        style="@style/EditTextStyle"
         android:hint="@string/loginsignup_passwordhint"
         android:inputType="textPassword"
         android:importantForAutofill="no"/>
@@ -45,6 +47,7 @@
         android:text="@string/login_createaccount"
         android:layout_marginTop="60dip"
         android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
         android:textSize="12sp"/>
 
     <Button
