@@ -23,7 +23,7 @@
         android:layout_height="240dp"
         android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        android:src="@drawable/heroin_drug" />
+        android:src="@drawable/heroin" />
 
     <TextView
         android:id="@+id/textView5"
