@@ -42,7 +42,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dip"
+        android:layout_marginTop="50dip"
         android:layout_gravity="center"
         style="@style/ButtonStyle"
         android:text="@string/login_loginbutton"/>
@@ -55,14 +55,14 @@
         android:layout_marginTop="50dip"
         android:layout_gravity="center"
         android:textColor="@color/colorWhite"
-        android:textSize="14sp"/>
+        android:textSize="16sp"/>
 
     <Button
         android:id="@+id/btnLoginProceedSignup"
         android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dip"
+        android:layout_marginTop="20dip"
         style="@style/ButtonStyle"
         android:text="@string/login_createaccountbutton"/>
 
@@ -70,7 +70,7 @@
         android:id="@+id/btnLoginForgotPassword"
         android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="50dip"
         android:layout_gravity="center"
         style="@style/ButtonStyle"
         android:text="@string/login_forgotpasswordbutton"/>
