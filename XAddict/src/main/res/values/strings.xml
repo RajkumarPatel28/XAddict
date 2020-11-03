@@ -38,7 +38,7 @@
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
-    <string name="login_forgotpasswordbutton">Forgot Password?</string>
+    <string name="login_forgotpasswordbutton">FORGOT PASSWORD?</string>
 
     <string-array name="DrugsList_DrugName">
         <item>cocaine</item>
