@@ -1,4 +1,4 @@
-package com.reduce_abuse.xaddict;
+package com.reduceabuse.xaddict;
 
 import org.junit.Test;
 
