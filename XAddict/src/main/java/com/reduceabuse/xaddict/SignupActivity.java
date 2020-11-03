@@ -40,11 +40,11 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
        btnSignup.setOnClickListener(this);
        btnProceedLogin.setOnClickListener(this);
 
-       if(fbAuth.getCurrentUser() != null)
+/*       if(fbAuth.getCurrentUser() != null)
        {
            Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
            startActivity(intent);
-       }
+       }*/
     }
 
     @Override
