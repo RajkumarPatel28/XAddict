@@ -14,7 +14,6 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_signup);
 
-
        Button btnSignup = findViewById(R.id.btnSignup);
        Button btnProceedLogin = findViewById(R.id.btnProceedLogin);
 
