@@ -41,12 +41,12 @@
     <string name="login_forgotpasswordbutton">FORGOT PASSWORD?</string>
 
     <string-array name="DrugsList_DrugName">
-        <item>cocaine</item>
-        <item>heroin</item>
-        <item>marijuana</item>
-        <item>mdma</item>
-        <item>meth</item>
-        <item>opioids</item>
+        <item>Cocaine</item>
+        <item>Heroin</item>
+        <item>Marijuana</item>
+        <item>Mdma</item>
+        <item>Meth</item>
+        <item>Opioids</item>
     </string-array>
 
     <string-array name="DrugsList_DrugDescripition">
