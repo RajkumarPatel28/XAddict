@@ -66,14 +66,19 @@
         style="@style/ButtonStyle"
         android:text="@string/login_createaccountbutton"/>
 
-    <Button
-        android:id="@+id/btnLoginForgotPassword"
-        android:layout_width="340dip"
+
+    <TextView
+        android:id="@+id/tvLoginForgotPassword"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dip"
         android:layout_gravity="center"
-        style="@style/ButtonStyle"
-        android:text="@string/login_forgotpasswordbutton"/>
+        android:layout_marginTop="40dip"
+        android:text="@string/login_forgotpassword"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:onClick="passwordFunction"
+        android:clickable="true"/>
 
     <ProgressBar
         android:id="@+id/pblogin"
@@ -81,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="40dip"
         android:visibility="invisible" />
 
 </LinearLayout>
