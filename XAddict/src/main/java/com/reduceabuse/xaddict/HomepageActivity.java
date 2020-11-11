@@ -1,57 +1,57 @@
 package com.reduceabuse.xaddict;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.Button;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class HomepageActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomepageActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        Button btnCall = findViewById(R.id.btnCall);
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
-        ImageButton btnHome = findViewById(R.id.homeBtn);
-        ImageButton btnDrugs = findViewById(R.id.drugsBtn);
-        ImageButton btnNotes = findViewById(R.id.notesBtn);
-        ImageButton btnSettings = findViewById(R.id.settingsBtn);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
 
-        btnCall.setOnClickListener(this);
-        btnHome.setOnClickListener(this);
-        btnDrugs.setOnClickListener(this);
-        btnNotes.setOnClickListener(this);
-        btnSettings.setOnClickListener(this);
+                    case R.id.homeBtn:
+                        break;
+
+                    case R.id.drugBtn:
+                        Intent intent2 = new Intent(HomepageActivity.this, DrugsListActivity.class);
+                        startActivity(intent2);
+                        break;
+
+                    case R.id.notesBtn:
+                        Intent intent3 = new Intent(HomepageActivity.this, PersonalNotesActivity.class);
+                        startActivity(intent3);
+                        break;
+
+                    case R.id.settingsBtn:
+                        Intent intent4 = new Intent(HomepageActivity.this, SettingsActivity.class);
+                        startActivity(intent4);
+                        break;
+                }
+                return true;
+            }
+
+        });
+
+
     }
 
-    @Override
-    public void onClick(View v) {
-        Intent intent = null;
 
-        switch(v.getId())
-        {
-            case R.id.btnCall:
-                intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:18006686868"));
-                break;
-            case R.id.homeBtn:
-                intent = new Intent(HomepageActivity.this, HomepageActivity.class);
-                break;
-            case R.id.drugsBtn:
-                intent = new Intent(HomepageActivity.this, DrugsListActivity.class);
-                break;
-            case R.id.notesBtn:
-                intent = new Intent(HomepageActivity.this, PersonalNotesActivity.class);
-                break;
-            case R.id.settingsBtn:
-                intent = new Intent(HomepageActivity.this, SettingsActivity.class);
-                break;
-        }
-        startActivity(intent);
+
+
     }
-}
+
