@@ -22,9 +22,80 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text=""
-        ></TextView>
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:text="Cocaine is a strong stimulant, which is most frequently used as a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled as smoke. "></TextView>
+
+    <TextView
+        android:id="@+id/CokeShortTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Short term side effects:" />
+
+    <TextView
+        android:id="@+id/CokeShortList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:text="- constricted blood vessels" />
+
+    <TextView
+        android:id="@+id/CokeShortList2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="- dilated pupils" />
+
+    <TextView
+        android:id="@+id/CokeShortList3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="- increase in body temperature" />
+
+    <TextView
+        android:id="@+id/CokeLongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Long term side effects:" />
+
+    <TextView
+        android:id="@+id/CokeLongList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:text="- increased risk for stroke and seizures" />
+
+    <TextView
+        android:id="@+id/CokeLongList2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="- Movement disorders; Parkinson's disease" />
+
+    <TextView
+        android:id="@+id/CokeLongList3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="- intracerebral hemorrhage" />
+
 
     <Button
         android:id="@+id/InfoBtn"
