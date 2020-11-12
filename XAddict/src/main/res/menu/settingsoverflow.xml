@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/opioids"
+        android:title="Account"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/privacy"
+        android:title="Privacy"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/appFeedback"
+        android:title="App Feedback"
+        app:showAsAction="never"/>
+
+</menu>

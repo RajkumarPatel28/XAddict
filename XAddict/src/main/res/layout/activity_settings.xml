@@ -8,21 +8,118 @@
     android:orientation="vertical"
     tools:context=".SettingsActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/settings_title"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center"
-        android:textSize="24sp"/>
+    <ViewFlipper
+        android:id="@+id/settingsVf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/setting_team_reduce_abuse"
-        android:layout_marginTop="370dip"
-        android:layout_marginStart="30dip"
-        android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppNameTextStyle"
+            android:text="@string/settings_title"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppTextStyle"
+            android:text="@string/setting_team_reduce_abuse"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/accountTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppNameTextStyle"
+                android:text="@string/settings_accounttitle"/>
+
+            <EditText
+                android:id="@+id/settingsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:layout_gravity="center"
+                android:ems="14"
+                style="@style/EditTextStyle"
+                android:hint="@string/settings_fullnamehint"
+                android:inputType="textPersonName"
+                android:text="@string/settings_nameEt"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/settingsEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_gravity="center"
+                android:ems="14"
+                style="@style/EditTextStyle"
+                android:hint="@string/settings_emailaddresshint"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/settingsPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_gravity="center"
+                android:ems="14"
+                style="@style/EditTextStyle"
+                android:hint="@string/settings_phonenumberhint"
+                android:inputType="phone"
+                android:importantForAutofill="no"/>
+
+            <Button
+                android:id="@+id/btnSetting"
+                android:layout_width="340dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dip"
+                android:layout_gravity="center"
+                style="@style/ButtonStyle"
+                android:text="@string/settings_submitbtn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/settingCb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="70dip"
+                    android:checked="false"/>
+
+                <TextView
+                    android:id="@+id/settingstv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="40dip"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:text="@string/settings_checkboxtv"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
 </LinearLayout>

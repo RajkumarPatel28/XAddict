@@ -39,6 +39,15 @@
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
     <string name="login_forgotpassword">FORGOT PASSWORD?</string>
+    <string name="settings_fullnamehint">Full Name</string>
+    <string name="settings_phonenumberhint">Phone Number</string>
+    <string name="settings_emailaddresshint">Email Address</string>
+    <string name="settings_submitbtn">Submit</string>
+    <string name="account_title">Account</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="settings_checkboxtv">Enable Location</string>
+    <string name="settings_accounttitle">Update Account</string>
+    <string name="settings_nameEt">Full Name</string>
 
     <string-array name="DrugsList_DrugName">
         <item>Cocaine</item>
