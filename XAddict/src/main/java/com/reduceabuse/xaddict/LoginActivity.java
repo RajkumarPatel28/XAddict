@@ -98,7 +98,7 @@ public class LoginActivity extends AppCompatActivity {
                 builder.setMessage(getString(R.string.login_dialogresetmessage))
                         .setView(etResetPassword)
                         .setCancelable(false)
-                        .setPositiveButton(getString(R.string.loginsignup_dialogpositive), new DialogInterface.OnClickListener() {
+                        .setPositiveButton(getString(R.string.login_dialogpositive), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                                 });
                             }
                         })
-                        .setNegativeButton(getString(R.string.loginsignup_dialognegative), new DialogInterface.OnClickListener() {
+                        .setNegativeButton(getString(R.string.login_dialognegative), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -142,13 +142,13 @@ public class LoginActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(getString(R.string.login_dialogbackmessage))
                 .setCancelable(false)
-                .setPositiveButton(getString(R.string.loginsignup_dialogpositive), new DialogInterface.OnClickListener() {
+                .setPositiveButton(getString(R.string.login_dialogpositive), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         LoginActivity.this.finish();
                     }
                 })
-                .setNegativeButton(getString(R.string.loginsignup_dialognegative), new DialogInterface.OnClickListener() {
+                .setNegativeButton(getString(R.string.login_dialognegative), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();

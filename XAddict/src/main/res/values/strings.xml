@@ -4,24 +4,24 @@
 
     <!-- LoginActivity -->
     <string name="login_loginbutton">LOGIN</string>
+    <string name="login_forgotpassword">FORGOT PASSWORD?</string>
     <string name="login_createaccount">Don\'t have an account yet?</string>
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
     <string name="login_emailerror">Enter a valid email address</string>
     <string name="login_passworderror">Enter a password</string>
     <string name="login_loginerror">Login failed, please try again</string>
     <string name="login_dialogresetmessage">Enter your email to reset password:</string>
+    <string name="login_dialogpositive">Yes</string>
+    <string name="login_dialognegative">No</string>
     <string name="login_dialogresetsuccessmessage">Reset password link sent to the provided email</string>
     <string name="login_dialogresetfailuremessage">Error, check the email provided</string>
     <string name="login_dialogresettitle">Reset Password</string>
     <string name="login_dialogbackmessage">Sure you wish to exit?</string>
     <string name="login_dialogbacktitle">Confirm Exit</string>
-    <string name="login_forgotpassword">FORGOT PASSWORD?</string>
 
     <!-- LoginActivity & SignupActivity -->
     <string name="loginsignup_emailaddresshint">Email Address</string>
     <string name="loginsignup_passwordhint">Password</string>
-    <string name="loginsignup_dialogpositive">Yes</string>
-    <string name="loginsignup_dialognegative">No</string>
 
     <!-- SignupActivity -->
     <string name="signup_confirmpasswordhint">Confirm Password</string>
