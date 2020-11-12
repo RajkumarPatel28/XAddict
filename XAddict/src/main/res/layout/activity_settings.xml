@@ -29,7 +29,9 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/AppTextStyle"
+            android:layout_marginTop="120dip"
+            android:textSize="35sp"
+            style="@style/AppNameTextStyle"
             android:text="@string/setting_team_reduce_abuse"/>
 
         </LinearLayout>
@@ -43,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/AppNameTextStyle"
-                android:text="@string/settings_accounttitle"/>
+                android:text="@string/settings_updateprofiletitle"/>
 
             <EditText
                 android:id="@+id/settingsName"
@@ -55,19 +57,6 @@
                 style="@style/EditTextStyle"
                 android:hint="@string/settings_fullnamehint"
                 android:inputType="textPersonName"
-                android:text="@string/settings_nameEt"
-                android:importantForAutofill="no"/>
-
-            <EditText
-                android:id="@+id/settingsEmailAddress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dip"
-                android:layout_gravity="center"
-                android:ems="14"
-                style="@style/EditTextStyle"
-                android:hint="@string/settings_emailaddresshint"
-                android:inputType="textEmailAddress"
                 android:importantForAutofill="no"/>
 
             <EditText
@@ -97,37 +86,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <RadioGroup
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dip">
-
-                    <RadioButton
-                        android:id="@+id/settingsRb1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dip"
-                        android:layout_marginTop="10dip"
-                        android:textColor="@color/colorWhite"
-                        android:textSize="20sp"
-                        android:text="@string/settings_radiobtn1"/>
-
-                    <RadioButton
-                        android:id="@+id/settingsRb2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dip"
-                        android:layout_marginTop="10dip"
-                        android:textColor="@color/colorWhite"
-                        android:textSize="20sp"
-                        android:text="@string/settings_radiobtn2"/>
-                </RadioGroup>
-            </LinearLayout>
         </LinearLayout>
     </ViewFlipper>
 </LinearLayout>

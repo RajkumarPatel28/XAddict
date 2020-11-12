@@ -62,12 +62,15 @@
     <string name="settings_phonenumberhint">Phone Number</string>
     <string name="settings_emailaddresshint">Email Address</string>
     <string name="settings_submitbtn">Submit</string>
-    <string name="account_title">Account</string>
-    <string name="privacy_title">Privacy</string>
-    <string name="settings_accounttitle">Update Account</string>
-    <string name="settings_nameEt">Full Name</string>
-    <string name="settings_radiobtn1">Enable Location</string>
-    <string name="settings_radiobtn2">Disable Location</string>
+    <string name="profile_title">Profile</string>
+    <string name="theme_title">Theme</string>
+    <string name="aboutus_title">About Us</string>
+    <string name="appfeedback_title">App Feedback</string>
+    <string name="overflow_itemprofile">Profile</string>
+    <string name="overflow_itemtheme">Theme</string>
+    <string name="overflow_itemaboutus">About Us</string>
+    <string name="overflow_itemappfeedback">App Feedback</string>
+    <string name="settings_updateprofiletitle">Update Profile</string>
 
     <string-array name="DrugsList_DrugName">
         <item>Cocaine</item>

@@ -2,21 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/account"
-        android:icon="@drawable/opioids"
-        android:title="Account"
+    <item android:id="@+id/profile"
+        android:title="@string/overflow_itemprofile"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/privacy"
-        android:title="Privacy"
+    <item android:id="@+id/theme"
+        android:title="@string/overflow_itemtheme"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/about"
-        android:title="About"
+    <item android:id="@+id/aboutUs"
+        android:title="@string/overflow_itemaboutus"
         app:showAsAction="never"/>
 
     <item android:id="@+id/appFeedback"
-        android:title="App Feedback"
+        android:title="@string/overflow_itemappfeedback"
         app:showAsAction="never"/>
 
 </menu>
