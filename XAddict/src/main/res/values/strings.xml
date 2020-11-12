@@ -2,18 +2,29 @@
     <string name="app_name">XAddict</string>
     <string name="splashscreen_title">REDUCE ABUSE</string>
 
+    <!-- LoginActivity -->
+    <string name="loginsignup_emailaddresshint">Email Address</string>
+    <string name="loginsignup_passwordhint">Password</string>
+    <string name="login_loginbutton">LOGIN</string>
+    <string name="login_createaccount">Don\'t have an account yet?</string>
+    <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
+    <string name="login_emailerror">Please enter an email address</string>
+    <string name="login_passworderror">Please enter a password</string>
+    <string name="login_loginerror">Login failed, please try again</string>
+    <string name="login_dialogresetmessage">Enter your email to reset password:</string>
+    <string name="login_dialogpositive">Yes</string>
+    <string name="login_dialogresetsuccessmessage">Reset password link sent to the provided email</string>
+    <string name="login_dialogresetfailuremessage">Error, check the email provided</string>
+    <string name="login_dialognegative">No</string>
+    <string name="login_dialogresettitle">Reset Password</string>
+    <string name="login_dialogbackmessage">Sure you wish to exit?</string>
+    <string name="login_dialogbacktitle">Confirm Exit</string>
+    <string name="login_forgotpassword">FORGOT PASSWORD?</string>
 
     <string name="signup_confirmpasswordhint">Confirm Password</string>
     <string name="signup_signupbutton">SIGN UP</string>
     <string name="signup_haveaccount">Already have an account?</string>
     <string name="signup_proceedloginbutton">PROCEED TO LOGIN</string>
-
-    <string name="login_loginbutton">LOGIN</string>
-    <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
-    <string name="login_createaccount">Don\'t have an account yet?</string>
-
-    <string name="loginsignup_emailaddresshint">Email Address</string>
-    <string name="loginsignup_passwordhint">Password</string>
 
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>
@@ -57,7 +68,7 @@
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>
     <string name="marijuana_moreinformtionbutton">More Information</string>
-    <string name="login_forgotpassword">FORGOT PASSWORD?</string>
+
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
     <string name="settings_emailaddresshint">Email Address</string>
