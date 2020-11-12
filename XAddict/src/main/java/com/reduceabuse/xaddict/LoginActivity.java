@@ -26,8 +26,8 @@ import java.util.Objects;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText etLoginEmailAddress, etLoginPassword, etResetPassword;
-    TextView tvLoginForgotPassword;
+    EditText etEmailAddress, etPassword, etResetPassword;
+    TextView tvForgotPassword;
     ProgressBar pbLogin;
     FirebaseAuth fbAuth;
     String emailAddress, password;
@@ -38,8 +38,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        etLoginEmailAddress = findViewById(R.id.etLoginEmailAddress);
-        etLoginPassword = findViewById(R.id.etLoginPassword);
+        etEmailAddress = findViewById(R.id.etEmailAddress);
+        etPassword = findViewById(R.id.etPassword);
         pbLogin = findViewById(R.id.pbLogin);
 
         fbAuth = FirebaseAuth.getInstance();
@@ -48,16 +48,16 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                emailAddress = etLoginEmailAddress.getText().toString().trim();
-                password = etLoginPassword.getText().toString().trim();
+                emailAddress = etEmailAddress.getText().toString().trim();
+                password = etPassword.getText().toString().trim();
 
                 if (TextUtils.isEmpty(emailAddress)) {
-                    etLoginEmailAddress.setError(getString(R.string.login_emailerror));
+                    etEmailAddress.setError(getString(R.string.login_emailerror));
                     return;
                 }
 
                 if (TextUtils.isEmpty(password)) {
-                    etLoginPassword.setError(getString(R.string.login_passworderror));
+                    etPassword.setError(getString(R.string.login_passworderror));
                     return;
                 }
 
@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        Button btnLoginProceedSignup = findViewById(R.id.btnLoginProceedSignup);
+        Button btnLoginProceedSignup = findViewById(R.id.btnProceedSignup);
         btnLoginProceedSignup.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
@@ -86,19 +86,19 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        tvLoginForgotPassword = findViewById(R.id.tvLoginForgotPassword);
-        tvLoginForgotPassword.setOnClickListener(new View.OnClickListener() {
+        tvForgotPassword = findViewById(R.id.tvForgotPassword);
+        tvForgotPassword.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
 
                 etResetPassword = new EditText(v.getContext());
-                emailAddress = etLoginEmailAddress.getText().toString().trim();
+                emailAddress = etEmailAddress.getText().toString().trim();
                 etResetPassword.setText(emailAddress);
 
                 builder.setMessage(getString(R.string.login_dialogresetmessage))
                         .setView(etResetPassword)
                         .setCancelable(false)
-                        .setPositiveButton(getString(R.string.login_dialogpositive), new DialogInterface.OnClickListener() {
+                        .setPositiveButton(getString(R.string.loginsignup_dialogpositive), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                                 });
                             }
                         })
-                        .setNegativeButton(getString(R.string.login_dialognegative), new DialogInterface.OnClickListener() {
+                        .setNegativeButton(getString(R.string.loginsignup_dialognegative), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -142,13 +142,13 @@ public class LoginActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(getString(R.string.login_dialogbackmessage))
                 .setCancelable(false)
-                .setPositiveButton(getString(R.string.login_dialogpositive), new DialogInterface.OnClickListener() {
+                .setPositiveButton(getString(R.string.loginsignup_dialogpositive), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         LoginActivity.this.finish();
                     }
                 })
-                .setNegativeButton(getString(R.string.login_dialognegative), new DialogInterface.OnClickListener() {
+                .setNegativeButton(getString(R.string.loginsignup_dialognegative), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
