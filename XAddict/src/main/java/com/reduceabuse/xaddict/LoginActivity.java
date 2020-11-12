@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                 password = etPassword.getText().toString().trim();
 
                 if (TextUtils.isEmpty(emailAddress)) {
-                    etEmailAddress.setError(getString(R.string.login_emailerror));
+                    etEmailAddress.setError(getString(R.string.loginsignup_emailerror));
                     return;
                 }
 

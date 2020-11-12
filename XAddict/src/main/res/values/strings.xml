@@ -7,7 +7,6 @@
     <string name="login_forgotpassword">FORGOT PASSWORD?</string>
     <string name="login_createaccount">Don\'t have an account yet?</string>
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
-    <string name="login_emailerror">Enter a valid email address</string>
     <string name="login_passworderror">Enter a password</string>
     <string name="login_loginerror">Login failed, please try again</string>
     <string name="login_dialogresetmessage">Enter your email to reset password:</string>
@@ -22,6 +21,7 @@
     <!-- LoginActivity & SignupActivity -->
     <string name="loginsignup_emailaddresshint">Email Address</string>
     <string name="loginsignup_passwordhint">Password</string>
+    <string name="loginsignup_emailerror">Enter a valid email address</string>
 
     <!-- SignupActivity -->
     <string name="signup_confirmpasswordhint">Confirm Password</string>
