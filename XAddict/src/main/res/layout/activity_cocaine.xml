@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textSize="24sp"
-        android:text="Cocaine is a strong stimulant, which is most frequently used as a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled as smoke. "></TextView>
+        android:text="@string/coke_desc" />
 
     <TextView
         android:id="@+id/CokeShortTitle"
@@ -34,7 +34,7 @@
         android:layout_marginTop="25dp"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:text="Short term side effects:" />
+        android:text="@string/shorttermtitle" />
 
     <TextView
         android:id="@+id/CokeShortList1"
@@ -43,7 +43,7 @@
         android:layout_gravity="start"
         android:layout_marginTop="5dp"
         android:textSize="24sp"
-        android:text="- constricted blood vessels" />
+        android:text="@string/coke_short1" />
 
     <TextView
         android:id="@+id/CokeShortList2"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:textSize="24sp"
-        android:text="- dilated pupils" />
+        android:text="@string/coke_short2" />
 
     <TextView
         android:id="@+id/CokeShortList3"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:textSize="24sp"
-        android:text="- increase in body temperature" />
+        android:text="@string/coke_short3" />
 
     <TextView
         android:id="@+id/CokeLongTitle"
@@ -69,7 +69,7 @@
         android:layout_marginTop="25dp"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:text="Long term side effects:" />
+        android:text="@string/longtermtitle" />
 
     <TextView
         android:id="@+id/CokeLongList1"
@@ -78,7 +78,7 @@
         android:layout_gravity="start"
         android:layout_marginTop="5dp"
         android:textSize="24sp"
-        android:text="- increased risk for stroke and seizures" />
+        android:text="@string/coke_long1" />
 
     <TextView
         android:id="@+id/CokeLongList2"
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:textSize="24sp"
-        android:text="- Movement disorders; Parkinson's disease" />
+        android:text="@string/coke_long2" />
 
     <TextView
         android:id="@+id/CokeLongList3"
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:textSize="24sp"
-        android:text="- intracerebral hemorrhage" />
+        android:text="@string/coke_long3" />
 
 
     <Button

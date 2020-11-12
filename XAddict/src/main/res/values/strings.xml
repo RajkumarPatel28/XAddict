@@ -34,6 +34,25 @@
     <string name="personalnotes_deletenotebutton">Delete Note</string>
     <string name="personalnotes_exportbutton">Export</string>
 
+    <string name="shorttermtitle">Short term side effects:</string>
+    <string name="longtermtitle">Long term side effects:</string>
+
+    <string name="coke_desc">Cocaine is a strong stimulant, which is most frequently used as a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled as smoke. </string>
+    <string name="coke_short1"> - Constricted blood vessels </string>
+    <string name="coke_short2"> - Dilated pupils </string>
+    <string name="coke_short3"> - Increase in body temperature</string>
+    <string name="coke_long1"> - Increased risk for stroke and seizures </string>
+    <string name="coke_long2"> - Movement disorders; Parkinson\'s disease</string>
+    <string name="coke_long3"> - Intracerebral hemorrhage</string>
+
+    <string name="synth_desc">Is a synthetic drug that alters mood and perception. It is most commonly snorted like powder, taken as a capsule or tablet, or swallowed in liquid form.  </string>
+    <string name="synth_short1"> - Impaired judgment </string>
+    <string name="synth_short2"> - Depression </string>
+    <string name="synth_short3"> - Involuntary teeth clenching</string>
+    <string name="synth_long1"> - Kidney failure </string>
+    <string name="synth_long2"> - Hemorrhaging</string>
+    <string name="synth_long3"> - Death</string>
+
     <string name="meth_more_information">More Information</string>
     <string name="opioids_more_information">More Information</string>
     <string name="marijuana_title">Marijuana</string>

@@ -17,12 +17,92 @@
         android:text="@string/synth_title"
         android:textSize="24sp" />
 
+    <TextView
+        android:id="@+id/CokeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:text="@string/synth_desc" />
+
+    <TextView
+        android:id="@+id/CokeShortTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/shorttermtitle" />
+
+    <TextView
+        android:id="@+id/CokeShortList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:text="@string/synth_short1" />
+
+    <TextView
+        android:id="@+id/CokeShortList2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="@string/synth_short2" />
+
+    <TextView
+        android:id="@+id/CokeShortList3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="@string/synth_short3" />
+
+    <TextView
+        android:id="@+id/CokeLongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/longtermtitle" />
+
+    <TextView
+        android:id="@+id/CokeLongList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:text="@string/synth_long1" />
+
+    <TextView
+        android:id="@+id/CokeLongList2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="@string/synth_long2" />
+
+    <TextView
+        android:id="@+id/CokeLongList3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:text="@string/synth_long3" />
+
+
     <Button
         android:id="@+id/InfoBtn"
         android:layout_width="350dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="450dip"
+        android:layout_marginTop="20dip"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/cocaine_moreinformationbutton" />
 
