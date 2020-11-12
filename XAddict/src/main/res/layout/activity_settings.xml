@@ -102,23 +102,31 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <CheckBox
-                    android:id="@+id/settingCb"
-                    android:layout_width="wrap_content"
+                <RadioGroup
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dip"
-                    android:layout_marginTop="70dip"
-                    android:checked="false"/>
+                    android:layout_marginTop="5dip">
 
-                <TextView
-                    android:id="@+id/settingstv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dip"
-                    android:layout_marginTop="40dip"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="20sp"
-                    android:text="@string/settings_checkboxtv"/>
+                    <RadioButton
+                        android:id="@+id/settingsRb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dip"
+                        android:layout_marginTop="10dip"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:text="@string/settings_radiobtn1"/>
+
+                    <RadioButton
+                        android:id="@+id/settingsRb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dip"
+                        android:layout_marginTop="10dip"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:text="@string/settings_radiobtn2"/>
+                </RadioGroup>
             </LinearLayout>
         </LinearLayout>
     </ViewFlipper>
