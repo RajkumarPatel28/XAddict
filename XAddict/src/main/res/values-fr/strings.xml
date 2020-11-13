@@ -30,53 +30,67 @@
     <string name="signup_registrationsuccessmessage">Inscription réussi</string>
     <string name="signup_registrationfailuremessage">L\'enregistrement a échoué, veuillez réessayer plus tard</string>
 
-
-    <!-- Strings below this point must be checked -->
-    <string name="meth_title"> Meth </string>
-    <string name="opioids_title"> Opioïdes </string>
-    <string name="heroin_title"> Héroïne </string>
-    <string name="synth_title"> Synthétiques (MDMA)</string>
-    <string name="cocaine_title"> Cocaïne </string>
-    <string name="marijuana_title"> Marijuana </string>
-
-    <string name="common_title"> Médicaments courants </string>
-    <string name="personalNotes_title">Notes personnelles</string>
-    <string name="personalnotes_importbutton">IMPORTER</string>
-    <string name="settings_title">Réglages</string>
-    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
-    <string name="homepage_title">Explorer</string>
-    <string name="homepage_talkbutton">PARLER À QUELQU\'UN</string>
-
-    <string name="personalnotes_deletenotebutton">Supprimer la note</string>
-    <string name="personalnotes_exportbutton">Exportation</string>
-
-    <string name="meth_more_information">Plus d\'information</string>
-    <string name="opioids_more_information">Plus d\'information</string>
-    <string name="marijuana_moreinformtionbutton">Plus d\'information</string>
-    <string name="cocaine_moreinformationbutton">Plus d\'information</string>
-    <string name="heroin_moreinformationbutton">Plus d\'information</string>
-
     <!-- BottomNavMenu -->
-    <string name="bottomnav_information">Information</string>
-    <string name="bottomnav_schedule">Schedule</string>
-    <string name="bottomnav_status">Status</string>
-    <string name="bottomnav_settings">Settings</string>
+    <string name="bottomnav_schedule">Programme</string>
+    <string name="bottomnav_status">Statut</string>
+    <string name="bottomnav_settings">Réglages</string>
 
-    <string-array name="DrugsList_DrugName">
-        <item>cocaine</item>
-        <item>héroïne</item>
-        <item>marijuana</item>
-        <item>synthétiques (mdma)</item>
-        <item>meth</item>
-        <item>opioïdes (oxycodone)</item>
+    <!-- DrugsList -->
+    <string name="drugslist_title">Médicaments courants </string>
+
+    <string-array name="drugslist_drugname">
+        <item>Cocaïne</item>
+        <item>Synthétiques (MDMA)</item>
+        <item>Héroïne</item>
+        <item>Marijuana</item>
+        <item>Méthamphétamine</item>
+        <item>Opioïdes (Oxycodone)</item>
     </string-array>
 
-    <string-array name="DrugsList_DrugDescripition">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
+    <!-- SettingsActivity -->
+
+
+    <!-- ScheduleActivity -->
+
+
+    <!-- StatusActivity -->
+
+
+    <!-- Shared between Drug Activities -->
+    <string name="moreinformationbutton">Plus d\'information</string>
+
+    <!-- CocaineActivity -->
+    <string name="cocaine_title">Cocaïne</string>
+
+    <!-- SyntheticsActivity -->
+    <string name="synthetics_title">Synthétiques (MDMA)</string>
+
+    <!-- HeroinActivity -->
+    <string name="heroin_title">Héroïne</string>
+
+    <!-- MarijuanaActivity -->
+
+
+    <!-- MethActivity -->
+    <string name="meth_title">Méthamphétamine</string>
+
+    <!-- OpioidsActivity -->
+    <string name="opioids_title">Opioïdes (Oxycodone)</string>
+
+    <!-- Strings below this point must be checked and or translated -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="settings_fullnamehint">Full Name</string>
+    <string name="settings_phonenumberhint">Phone Number</string>
+    <string name="settings_emailaddresshint">Email Address</string>
+    <string name="settings_submitbtn">Submit</string>
+    <string name="profile_title">Profile</string>
+    <string name="theme_title">Theme</string>
+    <string name="aboutus_title">About Us</string>
+    <string name="appfeedback_title">App Feedback</string>
+    <string name="overflow_itemprofile">Profile</string>
+    <string name="overflow_itemtheme">Theme</string>
+    <string name="overflow_itemaboutus">About Us</string>
+    <string name="overflow_itemappfeedback">App Feedback</string>
+    <string name="settings_updateprofiletitle">Update Profile</string>
 </resources>

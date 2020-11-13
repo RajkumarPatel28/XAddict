@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,23 +7,19 @@
     android:orientation="vertical"
     tools:context=".MarijuanaActivity">
 
-
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvTitle"
+        style="@style/TitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/marijuana_title"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center"
-        android:textSize="24sp" />
+        android:text="@string/marijuana_title" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="350dip"
+        android:id="@+id/btnInfo"
+        style="@style/ButtonStyle"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dip"
         android:layout_gravity="center"
-        android:backgroundTint="@color/colorAccent"
-        android:text="@string/marijuana_moreinformtionbutton" />
+        android:text="@string/moreinformationbutton" />
 
 </LinearLayout>

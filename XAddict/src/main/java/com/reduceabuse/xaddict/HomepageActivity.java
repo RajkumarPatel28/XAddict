@@ -16,41 +16,31 @@ public class HomepageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_homepage);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bnBar);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Intent intent;
                 switch (item.getItemId()) {
-
                     case R.id.btnDrugs:
-                        Intent intent1 = new Intent(HomepageActivity.this, DrugsListActivity.class);
-                        startActivity(intent1);
+                        intent = new Intent(HomepageActivity.this, DrugsListActivity.class);
                         break;
-
                     case R.id.btnSchedule:
-                        Intent intent2 = new Intent(HomepageActivity.this, PersonalNotesActivity.class);
-                        startActivity(intent2);
+                        intent = new Intent(HomepageActivity.this, ScheduleActivity.class);
                         break;
-
                     case R.id.btnStatus:
-                        Intent intent3 = new Intent(HomepageActivity.this, PersonalNotesActivity.class);
-                        startActivity(intent3);
+                        intent = new Intent(HomepageActivity.this, StatusActivity.class);
                         break;
-
-
-                    case R.id.btnSettings:
-                        Intent intent4 = new Intent(HomepageActivity.this, SettingsActivity.class);
-                        startActivity(intent4);
+                    default:
+                        intent = new Intent(HomepageActivity.this, SettingsActivity.class);
                         break;
                 }
+                startActivity(intent);
                 return true;
             }
-
         });
     }
 }

@@ -9,19 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.reduceabuse.xaddict.MethActivity" />
-        <activity android:name="com.reduceabuse.xaddict.HeroinActivity" />
-        <activity android:name="com.reduceabuse.xaddict.OpioidsActivity" />
-        <activity android:name="com.reduceabuse.xaddict.SyntheticsActivity" />
-        <activity android:name="com.reduceabuse.xaddict.CocaineActivity" />
-        <activity android:name="com.reduceabuse.xaddict.MarijuanaActivity" />
-        <activity android:name="com.reduceabuse.xaddict.DrugsListActivity" />
-        <activity android:name="com.reduceabuse.xaddict.SettingsActivity" />
-        <activity android:name="com.reduceabuse.xaddict.PersonalNotesActivity" android:screenOrientation="sensor"/>
-        <activity android:name="com.reduceabuse.xaddict.HomepageActivity" />
-        <activity android:name="com.reduceabuse.xaddict.LoginActivity" />
-        <activity android:name="com.reduceabuse.xaddict.SignupActivity" />
-        <activity android:name="com.reduceabuse.xaddict.SplashScreenActivity" android:screenOrientation="sensor">
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".StatusActivity" />
+        <activity android:name=".MethActivity" />
+        <activity android:name=".HeroinActivity" />
+        <activity android:name=".OpioidsActivity" />
+        <activity android:name=".SyntheticsActivity" />
+        <activity android:name=".CocaineActivity" />
+        <activity android:name=".MarijuanaActivity" />
+        <activity android:name=".DrugsListActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".HomepageActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -8,40 +8,18 @@
     tools:context=".HeroinActivity">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvTitle"
+        style="@style/TitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/heroin_title"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center"
-        android:textSize="24sp"/>
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="300dp"
-        android:layout_height="240dp"
-        android:layout_marginTop="30dip"
-        android:layout_gravity="center"
-        android:src="@drawable/heroin" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Heroin is a drug that can be seen as a white or brown powder that is made from morphine used from opium poppy plants. Some long-term effects of using Heroin include insomnia, liver disease, kidney disease, lung complications, and depression. "
-        android:layout_marginTop="30dip"
-        android:layout_marginStart="20dip"
-        android:layout_gravity="center"
-        android:textSize="20sp"/>
+        android:text="@string/heroin_title" />
 
     <Button
-        android:id="@+id/heroinButton"
-        android:layout_width="350dip"
+        android:id="@+id/btnInfo"
+        style="@style/ButtonStyle"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
-        android:onClick="callIntent"
-        android:layout_marginTop="50dip"
         android:layout_gravity="center"
-        android:backgroundTint="@color/colorAccent"
-        android:text="@string/heroin_moreinformationbutton" />
+        android:text="@string/moreinformationbutton" />
 
 </LinearLayout>

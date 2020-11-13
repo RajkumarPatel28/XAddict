@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,102 +8,18 @@
     tools:context=".CocaineActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTitle"
+        style="@style/TitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dip"
-        android:text="@string/cocaine_title"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/CokeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:textSize="24sp"
-        android:text="@string/coke_desc" />
-
-    <TextView
-        android:id="@+id/CokeShortTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="25dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:text="@string/shorttermtitle" />
-
-    <TextView
-        android:id="@+id/CokeShortList1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="5dp"
-        android:textSize="24sp"
-        android:text="@string/coke_short1" />
-
-    <TextView
-        android:id="@+id/CokeShortList2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:textSize="24sp"
-        android:text="@string/coke_short2" />
-
-    <TextView
-        android:id="@+id/CokeShortList3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:textSize="24sp"
-        android:text="@string/coke_short3" />
-
-    <TextView
-        android:id="@+id/CokeLongTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="25dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:text="@string/longtermtitle" />
-
-    <TextView
-        android:id="@+id/CokeLongList1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="5dp"
-        android:textSize="24sp"
-        android:text="@string/coke_long1" />
-
-    <TextView
-        android:id="@+id/CokeLongList2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:textSize="24sp"
-        android:text="@string/coke_long2" />
-
-    <TextView
-        android:id="@+id/CokeLongList3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:textSize="24sp"
-        android:text="@string/coke_long3" />
-
+        android:text="@string/cocaine_title" />
 
     <Button
-        android:id="@+id/InfoBtn"
-        android:layout_width="350dip"
+        android:id="@+id/btnInfo"
+        style="@style/ButtonStyle"
+        android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dip"
-        android:backgroundTint="@color/colorAccent"
-        android:text="@string/cocaine_moreinformationbutton" />
-
+        android:text="@string/moreinformationbutton" />
 
 </LinearLayout>

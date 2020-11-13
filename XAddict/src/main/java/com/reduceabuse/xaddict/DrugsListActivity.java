@@ -1,31 +1,40 @@
 package com.reduceabuse.xaddict;
 
-        import androidx.appcompat.app.AppCompatActivity;
-        import androidx.recyclerview.widget.LinearLayoutManager;
-        import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
-        import android.os.Bundle;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Bundle;
+
+import java.util.Objects;
 
 public class DrugsListActivity extends AppCompatActivity {
 
-    RecyclerView recyclerView;
-
-    String DrugName[], DrugDescripition[];
-    int Images [] ={R.drawable.cocaine, R.drawable.heroin, R.drawable.marijuana, R.drawable.mdma, R.drawable.meth, R.drawable.opioids};
+    RecyclerView rvDrugList;
+    String[] drugName;
+    int[] drugImages = {R.drawable.cocaine, R.drawable.mdma, R.drawable.heroin, R.drawable.marijuana, R.drawable.meth, R.drawable.opioids};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drugs_list);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
-        recyclerView = findViewById(R.id.recyclerView);
+        rvDrugList = findViewById(R.id.rvDrugList);
 
-        DrugName = getResources().getStringArray(R.array.DrugsList_DrugName);
-        DrugDescripition = getResources().getStringArray(R.array.DrugsList_DrugDescripition);
+        drugName = getResources().getStringArray(R.array.drugslist_drugname);
 
-        AdapterDrugList AdapterDrugList = new AdapterDrugList(this,DrugName, DrugDescripition, Images);
-        recyclerView.setAdapter(AdapterDrugList);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        AdapterDrugList adapterDrugList = new AdapterDrugList(DrugsListActivity.this, drugName, drugImages);
+        rvDrugList.setAdapter(adapterDrugList);
+        rvDrugList.setLayoutManager(new LinearLayoutManager(DrugsListActivity.this));
+    }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(DrugsListActivity.this, HomepageActivity.class);
+        startActivity(intent);
     }
 }
