@@ -1,20 +1,37 @@
 <resources>
-    <string name="app_name">XAddict</string>
-    <string name="splashscreen_title">REDUCE ABUSE</string>
+    <!-- LoginActivity -->
+    <string name="login_loginbutton">S\'IDENTIFIER</string>
+    <string name="login_forgotpassword">MOT DE PASSE OUBLIÉ?</string>
+    <string name="login_createaccount">Vous n\'avez pas encore de compte?</string>
+    <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
+    <string name="login_passworderror">Entrer un mot de passe</string>
+    <string name="login_loginerror">Échec de la connexion, veuillez réessayer</string>
+    <string name="login_dialogresetmessage">Entrez votre email pour réinitialiser le mot de passe:</string>
+    <string name="login_dialogpositive">Oui</string>
+    <string name="login_dialognegative">Non</string>
+    <string name="login_dialogresetsuccessmessage">Lien de réinitialisation du mot de passe envoyé à l\'e-mail fourni</string>
+    <string name="login_dialogresetfailuremessage">Erreur, vérifiez l\'e-mail fourni</string>
+    <string name="login_dialogresettitle">Réinitialiser le mot de passe</string>
+    <string name="login_dialogbackmessage">Êtes-vous sûr de vouloir quitter?</string>
+    <string name="login_dialogbacktitle">Confirmer la sortie</string>
 
-    <string name="signup_confirmpasswordhint">CONFIRMEZ LE MOT DE PASSE</string>
+    <!-- LoginActivity & SignupActivity -->
+    <string name="loginsignup_emailaddresshint">Adresse électronique</string>
+    <string name="loginsignup_passwordhint">Mot de passe</string>
+    <string name="loginsignup_emailerror">Entrez une adresse e-mail valide</string>
+
+    <!-- SignupActivity -->
+    <string name="signup_confirmpasswordhint">Confirmez le mot de passe</string>
     <string name="signup_signupbutton">S\'INSCRIRE</string>
     <string name="signup_haveaccount">Vous avez déjà un compte?</string>
     <string name="signup_proceedloginbutton">PROCÉDER À LA CONNEXION</string>
+    <string name="signup_passworderror">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="signup_passwordconfirmerror">Les mots de passe ne correspondent pas</string>
+    <string name="signup_registrationsuccessmessage">Inscription réussi</string>
+    <string name="signup_registrationfailuremessage">L\'enregistrement a échoué, veuillez réessayer plus tard</string>
 
-    <string name="login_loginbutton">S\'identifier</string>
-    <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
-    <string name="login_createaccount">Vous n\'avez pas encore de compte?</string>
 
-    <string name="loginsignup_emailaddresshint">ADRESSE ÉLECTRONIQUE</string>
-    <string name="loginsignup_usernamehint">NOM D\'UTILISATEUR</string>
-    <string name="loginsignup_passwordhint">MOT DE PASSE</string>
-
+    <!-- Strings below this point must be checked -->
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioïdes </string>
     <string name="heroin_title"> Héroïne </string>

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">XAddict</string>
-    <string name="splashscreen_title">REDUCE ABUSE</string>
+    <string name="app_name" translatable="false">XAddict</string>
+    <string name="splashscreen_title" translatable="false">REDUCE ABUSE</string>
 
     <!-- LoginActivity -->
     <string name="login_loginbutton">LOGIN</string>
@@ -34,6 +34,7 @@
     <string name="signup_registrationfailuremessage">Registration failed, please try again later</string>
 
 
+    <!-- Strings below this point must be checked -->
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>
     <string name="heroin_title"> Heroin </string>
