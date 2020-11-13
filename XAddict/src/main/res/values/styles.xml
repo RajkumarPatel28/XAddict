@@ -18,7 +18,7 @@
         <item name="android:textStyle">bold</item>
     </style>
     
-    <style name="AppNameTextStyle" parent="@android:style/Widget.TextView">
+    <style name="TitleTextStyle" parent="@android:style/Widget.TextView">
         <item name="android:layout_marginTop">10dip</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:textColor">@color/colorWhite</item>
