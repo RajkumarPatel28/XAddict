@@ -92,6 +92,12 @@
     <string name="overflow_itemappfeedback">App Feedback</string>
     <string name="settings_updateprofiletitle">Update Profile</string>
 
+    <!-- BottomNavMenu -->
+    <string name="bottomnav_information">Information</string>
+    <string name="bottomnav_schedule">Schedule</string>
+    <string name="bottomnav_status">Status</string>
+    <string name="bottomnav_settings">Settings</string>
+
     <string-array name="DrugsList_DrugName">
         <item>Cocaine</item>
         <item>Heroin</item>

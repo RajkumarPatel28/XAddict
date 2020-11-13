@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnDrugs"
+        android:icon="@drawable/ic_information"
+        android:title="@string/bottomnav_information" />
+
+    <item
+        android:id="@+id/btnSchedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/bottomnav_schedule"/>
+
+    <item
+        android:id="@+id/btnStatus"
+        android:icon="@drawable/ic_status"
+        android:title="@string/bottomnav_status" />
+    <item
+        android:id="@+id/btnSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/bottomnav_settings"/>
+</menu>

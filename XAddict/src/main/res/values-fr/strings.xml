@@ -56,6 +56,12 @@
     <string name="cocaine_moreinformationbutton">Plus d\'information</string>
     <string name="heroin_moreinformationbutton">Plus d\'information</string>
 
+    <!-- BottomNavMenu -->
+    <string name="bottomnav_information">Information</string>
+    <string name="bottomnav_schedule">Schedule</string>
+    <string name="bottomnav_status">Status</string>
+    <string name="bottomnav_settings">Settings</string>
+
     <string-array name="DrugsList_DrugName">
         <item>cocaine</item>
         <item>héroïne</item>
