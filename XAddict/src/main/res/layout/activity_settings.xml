@@ -9,7 +9,7 @@
     tools:context=".SettingsActivity">
 
     <ViewFlipper
-        android:id="@+id/settingsVf"
+        android:id="@+id/vfSettings"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -18,67 +18,83 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/AppNameTextStyle"
-            android:text="@string/settings_title"/>
+            <TextView
+                android:id="@+id/tvSettingsTitle"
+                style="@style/TitleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="120dip"
-            android:textSize="35sp"
-            style="@style/AppNameTextStyle"
-            android:text="@string/setting_team_reduce_abuse"/>
+            <TextView
+                android:id="@+id/tvTeam"
+                style="@style/TitleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dip"
+                android:gravity="center"
+                android:text="@string/setting_team_reduce_abuse"
+                android:textSize="35sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/accountTitle"
+                android:id="@+id/tvAccountTitle"
+                style="@style/TitleTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/AppNameTextStyle"
-                android:text="@string/settings_updateprofiletitle"/>
+                android:text="@string/settings_updateprofiletitle" />
 
             <EditText
-                android:id="@+id/settingsName"
+                android:id="@+id/etFullName"
+                style="@style/EditTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="50dip"
-                android:layout_gravity="center"
                 android:ems="14"
-                style="@style/EditTextStyle"
                 android:hint="@string/settings_fullnamehint"
-                android:inputType="textPersonName"
-                android:importantForAutofill="no"/>
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/settingsPhoneNumber"
+                android:id="@+id/etPhoneNumber"
+                style="@style/EditTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dip"
                 android:layout_gravity="center"
+                android:layout_marginTop="40dip"
                 android:ems="14"
-                style="@style/EditTextStyle"
                 android:hint="@string/settings_phonenumberhint"
-                android:inputType="phone"
-                android:importantForAutofill="no"/>
+                android:importantForAutofill="no"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/etChangePassword"
+                style="@style/EditTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dip"
+                android:ems="14"
+                android:hint="Change Password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword" />
 
             <Button
                 android:id="@+id/btnSubmit"
+                style="@style/ButtonStyle"
                 android:layout_width="340dip"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="80dip"
                 android:layout_gravity="center"
-                style="@style/ButtonStyle"
-                android:text="@string/settings_submitbtn"/>
+                android:layout_marginTop="80dip"
+                android:text="@string/settings_submitbtn" />
+
+
         </LinearLayout>
 
         <LinearLayout

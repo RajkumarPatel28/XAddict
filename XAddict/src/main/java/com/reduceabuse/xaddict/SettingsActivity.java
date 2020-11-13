@@ -10,7 +10,7 @@ import android.widget.ViewFlipper;
 
 public class SettingsActivity extends AppCompatActivity {
 
-    ViewFlipper settingsVf;
+    ViewFlipper vfSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
         setTitle("Setting");
 
-        settingsVf = findViewById(R.id.settingsVf);
-        settingsVf.setDisplayedChild(0);
+        vfSettings = findViewById(R.id.vfSettings);
+        vfSettings.setDisplayedChild(0);
     }
 
     @Override
@@ -34,19 +34,19 @@ public class SettingsActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.profile:
                 setTitle(getString(R.string.profile_title));
-                settingsVf.setDisplayedChild(1);
+                vfSettings.setDisplayedChild(1);
                 return true;
             case R.id.theme:
                 setTitle(getString(R.string.theme_title));
-                settingsVf.setDisplayedChild(2);
+                vfSettings.setDisplayedChild(2);
                 return true;
             case R.id.aboutUs:
                 setTitle(getString(R.string.aboutus_title));
-                settingsVf.setDisplayedChild(3);
+                vfSettings.setDisplayedChild(3);
                 return true;
             case R.id.appFeedback:
                 setTitle(getString(R.string.appfeedback_title));
-                settingsVf.setDisplayedChild(4);
+                vfSettings.setDisplayedChild(4);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
