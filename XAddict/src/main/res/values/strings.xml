@@ -28,6 +28,11 @@
     <string name="signup_signupbutton">SIGN UP</string>
     <string name="signup_haveaccount">Already have an account?</string>
     <string name="signup_proceedloginbutton">PROCEED TO LOGIN</string>
+    <string name="signup_passworderror">Password must be 6 or more characters</string>
+    <string name="signup_passwordconfirmerror">Passwords do not match</string>
+    <string name="signup_registrationsuccessmessage">Registration successful</string>
+    <string name="signup_registrationfailuremessage">Registration failed, please try again later</string>
+
 
     <string name="meth_title"> Meth </string>
     <string name="opioids_title"> Opioids </string>

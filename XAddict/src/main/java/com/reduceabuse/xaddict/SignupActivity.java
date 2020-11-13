@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -16,90 +17,76 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class SignupActivity extends AppCompatActivity implements View.OnClickListener {
+import java.util.Objects;
+
+public class SignupActivity extends AppCompatActivity {
 
     EditText etEmailAddress, etPassword, etConfirmPassword;
-
+    ProgressBar pbSignup;
     FirebaseAuth fbAuth;
-
+    String emailAddress, password, confirmPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_signup);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
-       etEmailAddress = findViewById(R.id.etEmailAddress);
-       etPassword = findViewById(R.id.etPassword);
-       etConfirmPassword = findViewById(R.id.etConfirmPassword);
+        etEmailAddress = findViewById(R.id.etEmailAddress);
+        etPassword = findViewById(R.id.etPassword);
+        etConfirmPassword = findViewById(R.id.etConfirmPassword);
+        pbSignup = findViewById(R.id.pbSignup);
 
-       fbAuth = FirebaseAuth.getInstance();
+        fbAuth = FirebaseAuth.getInstance();
 
-       Button btnSignup = findViewById(R.id.btnSignup);
-       Button btnProceedLogin = findViewById(R.id.btnProceedLogin);
+        Button btnSignup = findViewById(R.id.btnSignup);
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
 
-       btnSignup.setOnClickListener(this);
-       btnProceedLogin.setOnClickListener(this);
+                emailAddress = etEmailAddress.getText().toString().trim();
+                password = etPassword.getText().toString().trim();
+                confirmPassword = etConfirmPassword.getText().toString().trim();
 
-/*       if(fbAuth.getCurrentUser() != null)
-       {
-           Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
-           startActivity(intent);
-       }*/
-    }
-
-    @Override
-    public void onClick(View v) {
-
-        String emailAddress, password, confirmPassword;
-
-        emailAddress = etEmailAddress.getText().toString().trim();
-        password = etPassword.getText().toString().trim();
-        confirmPassword = etConfirmPassword.getText().toString().trim();
-
-
-        switch(v.getId())
-        {
-            case R.id.btnSignup:
                 if (TextUtils.isEmpty(emailAddress)) {
-                    etEmailAddress.setError("Enter a valid email address");
+                    etEmailAddress.setError(getString(R.string.loginsignup_emailerror));
                     return;
                 }
 
-                if (password.length() < 6)
-                {
-                    etPassword.setError("Password must be 6 or more characters");
+                if (password.length() < 6) {
+                    etPassword.setError(getString(R.string.signup_passworderror));
                     return;
                 }
 
-                if (!TextUtils.equals(password, confirmPassword))
-                {
-                    etPassword.setError("Password does not match");
-                    etConfirmPassword.setError("Password does not match");
+                if (!TextUtils.equals(password, confirmPassword)) {
+                    etPassword.setError(getString(R.string.signup_passwordconfirmerror));
+                    etConfirmPassword.setError(getString(R.string.signup_passwordconfirmerror));
                     return;
                 }
+
+                pbSignup.setVisibility(View.VISIBLE);
 
                 fbAuth.createUserWithEmailAndPassword(emailAddress, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful())
-                        {
-                            Toast.makeText(SignupActivity.this, "User Created", Toast.LENGTH_SHORT).show();
+                        if (task.isSuccessful()) {
+                            Toast.makeText(SignupActivity.this, getString(R.string.signup_registrationsuccessmessage), Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
                             startActivity(intent);
+                        } else {
+                            Toast.makeText(SignupActivity.this, getString(R.string.signup_registrationfailuremessage), Toast.LENGTH_SHORT).show();
                         }
-
-                        else
-                        {
-                            Toast.makeText(SignupActivity.this, "Registration Failed:" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                        }
+                        pbSignup.setVisibility(View.INVISIBLE);
                     }
                 });
-                break;
+            }
+        });
 
-            case R.id.btnProceedLogin:
+        Button btnProceedLogin = findViewById(R.id.btnProceedLogin);
+        btnProceedLogin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
                 startActivity(intent);
-                break;
-        }
+            }
+        });
     }
 }
