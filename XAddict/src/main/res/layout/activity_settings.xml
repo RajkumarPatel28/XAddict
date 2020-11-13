@@ -72,7 +72,7 @@
                 android:importantForAutofill="no"/>
 
             <Button
-                android:id="@+id/btnSetting"
+                android:id="@+id/btnSubmit"
                 android:layout_width="340dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="80dip"
