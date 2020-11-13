@@ -2,7 +2,7 @@
     <!-- LoginActivity -->
     <string name="login_loginbutton">S\'IDENTIFIER</string>
     <string name="login_forgotpassword">MOT DE PASSE OUBLIÉ?</string>
-    <string name="login_createaccount">Vous n\'avez pas encore de compte?</string>
+    <string name="login_needaccount">Vous n\'avez pas encore de compte?</string>
     <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
     <string name="login_passworderror">Entrer un mot de passe</string>
     <string name="login_loginerror">Échec de la connexion, veuillez réessayer</string>

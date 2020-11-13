@@ -145,7 +145,7 @@ public class LoginActivity extends AppCompatActivity {
                 .setPositiveButton(getString(R.string.login_dialogpositive), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        LoginActivity.this.finish();
+                        System.exit(0);
                     }
                 })
                 .setNegativeButton(getString(R.string.login_dialognegative), new DialogInterface.OnClickListener() {
