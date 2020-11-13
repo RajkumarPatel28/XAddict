@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="65dip"
-        android:text="@string/login_createaccount"
+        android:text="@string/login_needaccount"
         android:textColor="@color/colorWhite"
         android:textSize="16sp" />
 

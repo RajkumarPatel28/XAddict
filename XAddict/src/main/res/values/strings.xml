@@ -5,7 +5,7 @@
     <!-- LoginActivity -->
     <string name="login_loginbutton">LOGIN</string>
     <string name="login_forgotpassword">FORGOT PASSWORD?</string>
-    <string name="login_createaccount">Don\'t have an account yet?</string>
+    <string name="login_needaccount">Don\'t have an account yet?</string>
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
     <string name="login_passworderror">Enter a password</string>
     <string name="login_loginerror">Login failed, please try again</string>
