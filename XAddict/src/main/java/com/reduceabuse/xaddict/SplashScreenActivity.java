@@ -11,20 +11,16 @@ import java.util.Objects;
 public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
-
-
-        new Handler().postDelayed(new Runnable()
-        {
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void run()
-            {
-                Intent loginIntent = new Intent(SplashScreenActivity.this, LoginActivity.class);
-                startActivity(loginIntent);
+            public void run() {
+                Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+                startActivity(intent);
                 finish();
             }
         }, 3000);
