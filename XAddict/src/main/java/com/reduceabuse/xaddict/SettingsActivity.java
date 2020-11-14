@@ -2,6 +2,7 @@ package com.reduceabuse.xaddict;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -16,7 +17,7 @@ public class SettingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        setTitle("Setting");
+        setTitle(getString(R.string.settings_title));
 
         vfSettings = findViewById(R.id.vfSettings);
         vfSettings.setDisplayedChild(0);
@@ -25,31 +26,33 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.settingsoverflow, menu);
+        inflater.inflate(R.menu.settings_overflow, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.profile:
-                setTitle(getString(R.string.profile_title));
+                setTitle(getString(R.string.settings_updateprofiletitle));
                 vfSettings.setDisplayedChild(1);
                 return true;
-            case R.id.theme:
-                setTitle(getString(R.string.theme_title));
+            case R.id.appFeedback:
+                setTitle(getString(R.string.settings_feedbacktitle));
                 vfSettings.setDisplayedChild(2);
                 return true;
             case R.id.aboutUs:
-                setTitle(getString(R.string.aboutus_title));
+                setTitle(getString(R.string.settings_aboutustitle));
                 vfSettings.setDisplayedChild(3);
-                return true;
-            case R.id.appFeedback:
-                setTitle(getString(R.string.appfeedback_title));
-                vfSettings.setDisplayedChild(4);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(SettingsActivity.this, HomepageActivity.class);
+        startActivity(intent);
     }
 }

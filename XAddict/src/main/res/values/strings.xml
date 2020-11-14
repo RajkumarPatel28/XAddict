@@ -83,18 +83,15 @@
 
     <!-- Strings below this point must be checked and or translated -->
     <string name="settings_title">Settings</string>
-    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="settings_infotv">You may implement the setting tools provided</string>
+    <string name="settings_updateprofiletitle">Update Profile</string>
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
-    <string name="settings_emailaddresshint">Email Address</string>
     <string name="settings_submitbtn">Submit</string>
-    <string name="profile_title">Profile</string>
-    <string name="theme_title">Theme</string>
-    <string name="aboutus_title">About Us</string>
-    <string name="appfeedback_title">App Feedback</string>
-    <string name="overflow_itemprofile">Profile</string>
-    <string name="overflow_itemtheme">Theme</string>
-    <string name="overflow_itemaboutus">About Us</string>
-    <string name="overflow_itemappfeedback">App Feedback</string>
-    <string name="settings_updateprofiletitle">Update Profile</string>
+    <string name="settings_logoutbtn">Logout</string>
+    <string name="settings_feedbacktitle">App Feedback</string>
+    <string name="settings_review">Tell us a bit more of why you chose the above</string>
+    <string name="settings_aboutustitle">About Us</string>
+    <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
+    <string name="setting_teamname">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 </resources>

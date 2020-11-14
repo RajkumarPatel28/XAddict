@@ -83,7 +83,6 @@
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
     <string name="settings_emailaddresshint">Email Address</string>
-    <string name="settings_submitbtn">Submit</string>
     <string name="profile_title">Profile</string>
     <string name="theme_title">Theme</string>
     <string name="aboutus_title">About Us</string>
