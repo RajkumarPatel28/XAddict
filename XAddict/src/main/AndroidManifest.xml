@@ -19,7 +19,7 @@
         <activity android:name=".CocaineActivity" />
         <activity android:name=".MarijuanaActivity" />
         <activity android:name=".DrugsListActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SettingsActivity" android:screenOrientation="sensor"/>
         <activity android:name=".HomepageActivity" />
         <activity android:name=".LoginActivity" android:screenOrientation="sensor"/>
         <activity android:name=".SignupActivity" />

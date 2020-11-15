@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <ViewFlipper
+        android:id="@+id/vfSettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSettingsTitle"
+                style="@style/TitleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title" />
+
+            <DigitalClock
+                android:id="@+id/dClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dip"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/tvInfo"
+                style="@style/TitleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dip"
+                android:gravity="center"
+                android:text="@string/settings_infotv"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProfileTitle"
+                style="@style/TitleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_updateprofiletitle" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="200dip"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etFullName"
+                        style="@style/EditTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dip"
+                        android:ems="14"
+                        android:hint="@string/settings_fullnamehint"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/etPhoneNumber"
+                        style="@style/EditTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dip"
+                        android:ems="14"
+                        android:hint="@string/settings_phonenumberhint"
+                        android:importantForAutofill="no"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnProfileSubmit"
+                        style="@style/ButtonStyle"
+                        android:layout_width="340dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="55dip"
+                        android:text="@string/settings_submitbtn" />
+
+                    <Button
+                        android:id="@+id/btnLogout"
+                        style="@style/ButtonStyle"
+                        android:layout_width="340dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="55dip"
+                        android:text="@string/settings_logoutbtn" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="200dip"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFeedbackTitle"
+                        style="@style/TitleTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_feedbacktitle" />
+
+                    <EditText
+                        android:id="@+id/etName"
+                        style="@style/EditTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="35dip"
+                        android:ems="14"
+                        android:hint="@string/settings_namehint"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName" />
+
+                    <RatingBar
+                        android:id="@+id/rbFeedback"
+                        style="?android:attr/ratingBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dip"
+                        android:numStars="5"
+                        android:progressBackgroundTint="@color/colorAccent"
+                        android:progressTint="@color/colorWhite"
+                        android:rating="2.5"
+                        android:stepSize="0.5" />
+
+                    <EditText
+                        android:id="@+id/etReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dip"
+                        android:background="@android:drawable/edit_text"
+                        android:ems="17"
+                        android:gravity="top"
+                        android:hint="@string/settings_review"
+                        android:inputType="textMultiLine"
+                        android:lines="8" />
+
+                    <Button
+                        android:id="@+id/btnFeedbackSubmit"
+                        style="@style/ButtonStyle"
+                        android:layout_width="340dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dip"
+                        android:text="@string/settings_submitbtn" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="200dip"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvAboutUsTitle"
+                        style="@style/TitleTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_aboutustitle" />
+
+                    <TextView
+                        android:id="@+id/tvTeamEmail"
+                        style="@style/TitleTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dip"
+                        android:text="@string/settings_teamemail"
+                        android:textSize="35sp" />
+
+                    <TextView
+                        android:id="@+id/tvTeam"
+                        style="@style/TitleTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dip"
+                        android:gravity="center"
+                        android:text="@string/setting_teamname"
+                        android:textSize="35sp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>
