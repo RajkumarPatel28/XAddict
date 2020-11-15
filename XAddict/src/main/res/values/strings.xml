@@ -83,6 +83,11 @@
 
     <!-- Strings below this point must be checked and or translated -->
     <string name="settings_title">Settings</string>
+    <string name="settings_fullnamevalue">fullName</string>
+    <string name="settings_phonenumbervalue">phoneNumber</string>
+    <string name="settings_fullnameerror">Please Enter Your Full Name</string>
+    <string name="settings_updatedmessage">Successfully Updated Profile</string>
+    <string name="settings_logoutmessage">Successfully Logged Out</string>
     <string name="settings_infotv">You may implement the setting tools provided</string>
     <string name="settings_updateprofiletitle">Update Profile</string>
     <string name="settings_fullnamehint">Full Name</string>
