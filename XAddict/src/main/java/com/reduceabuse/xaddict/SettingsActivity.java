@@ -13,15 +13,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RatingBar;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SettingsActivity extends AppCompatActivity {
 
     ViewFlipper vfSettings;
-    EditText etFullName, etPhoneNumber;
-    Button btnProfileSubmit, btnLogout;
-    String fullName, phoneNumber;
+    EditText etFullName, etPhoneNumber, etName, etReview;
+    Button btnProfileSubmit, btnLogout, btnFeedbackSubmit;
+    String fullName, phoneNumber, data, rating, feedback;
+    RatingBar rbFeedback;
+    FirebaseDatabase database;
+    DatabaseReference ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,12 +43,18 @@ public class SettingsActivity extends AppCompatActivity {
         etPhoneNumber = findViewById(R.id.etPhoneNumber);
         btnProfileSubmit = findViewById(R.id.btnProfileSubmit);
         btnLogout = findViewById(R.id.btnLogout);
+        etName = findViewById(R.id.etName);
+        etReview = findViewById(R.id.etReview);
+        rbFeedback = findViewById(R.id.rbFeedback);
+        btnFeedbackSubmit = findViewById(R.id.btnFeedbackSubmit);
 
         SharedPreferences saveData = PreferenceManager.getDefaultSharedPreferences(this);
-        String fullName1 = saveData.getString(getString(R.string.settings_fullnamevalue),"");
-        String phoneNumber1 = saveData.getString(getString(R.string.settings_phonenumbervalue),"");
+        String fullName1 = saveData.getString(getString(R.string.settings_fullnamevalue), "");
+        String phoneNumber1 = saveData.getString(getString(R.string.settings_phonenumbervalue), "");
         etFullName.setText(fullName1);
         etPhoneNumber.setText(phoneNumber1);
+
+        database = FirebaseDatabase.getInstance();
 
         btnProfileSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,14 +65,13 @@ public class SettingsActivity extends AppCompatActivity {
 
                 SharedPreferences saveData = PreferenceManager.getDefaultSharedPreferences(SettingsActivity.this);
                 SharedPreferences.Editor editor = saveData.edit();
-                editor.putString(getString(R.string.settings_fullnamevalue),fullName);
-                editor.putString(getString(R.string.settings_phonenumbervalue),phoneNumber);
+                editor.putString(getString(R.string.settings_fullnamevalue), fullName);
+                editor.putString(getString(R.string.settings_phonenumbervalue), phoneNumber);
                 editor.apply();
 
                 if (TextUtils.isEmpty(fullName)) {
                     Toast.makeText(SettingsActivity.this, getString(R.string.settings_fullnameerror), Toast.LENGTH_SHORT).show();
-                }
-                else {
+                } else {
                     Toast.makeText(SettingsActivity.this, getString(R.string.settings_updatedmessage), Toast.LENGTH_SHORT).show();
                 }
             }
@@ -71,6 +83,27 @@ public class SettingsActivity extends AppCompatActivity {
                 Toast.makeText(SettingsActivity.this, getString(R.string.settings_logoutmessage), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        btnFeedbackSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                data = etName.getText().toString();
+                ref = database.getReference(getString(R.string.settings_reviewstitle)).child(data);
+                rating = String.valueOf(rbFeedback.getRating());
+                feedback = etReview.getText().toString();
+
+                ref.child(getString(R.string.settings_ratingtitle)).setValue(rating);
+                ref.child(getString(R.string.settings_feedbacktitle)).setValue(feedback);
+
+                if (TextUtils.isEmpty(feedback)) {
+                    Toast.makeText(SettingsActivity.this, getString(R.string.settings_feedbackerror), Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(SettingsActivity.this, getString(R.string.settings_feedbackmessage), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(SettingsActivity.this, HomepageActivity.class);
+                    startActivity(intent);
+                }
             }
         });
     }

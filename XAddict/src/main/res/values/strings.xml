@@ -88,15 +88,20 @@
     <string name="settings_fullnameerror">Please Enter Your Full Name</string>
     <string name="settings_updatedmessage">Successfully Updated Profile</string>
     <string name="settings_logoutmessage">Successfully Logged Out</string>
-    <string name="settings_infotv">You may implement the setting tools provided</string>
+    <string name="settings_reviewstitle">Reviews</string>
+    <string name="settings_ratingtitle">Rating</string>
+    <string name="settings_feedbacktitle">App Feedback</string>
+    <string name="settings_feedbackerror">Please provide a review</string>
+    <string name="settings_feedbackmessage">Thank you for your feedback</string>
     <string name="settings_updateprofiletitle">Update Profile</string>
+    <string name="settings_aboutustitle">About Us</string>
+    <string name="settings_infotv">You may implement the setting tools provided</string>
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
     <string name="settings_submitbtn">Submit</string>
     <string name="settings_logoutbtn">Logout</string>
-    <string name="settings_feedbacktitle">App Feedback</string>
+    <string name="settings_namehint">Name</string>
     <string name="settings_review">Tell us a bit more of why you chose the above</string>
-    <string name="settings_aboutustitle">About Us</string>
     <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
     <string name="setting_teamname">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 </resources>
