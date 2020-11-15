@@ -22,7 +22,7 @@
         <activity android:name=".SettingsActivity" android:screenOrientation="sensor"/>
         <activity android:name=".HomepageActivity" />
         <activity android:name=".LoginActivity" android:screenOrientation="sensor"/>
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".SignupActivity" android:screenOrientation="sensor"/>
         <activity android:name=".SplashScreenActivity" android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
