@@ -74,6 +74,11 @@
 
     <!-- MarijuanaActivity -->
     <string name="marijuana_title" translatable="false">Marijuana</string>
+    <string name="marijuana_information">Weed is a common street term and recreational drug that
+        comes from the marijuana plant: the hemp plant cannabis. The pharmacologically
+        active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\nShort term effects:\n
+    • Increased risk of stroke\n• Hallucinations\n• Sexual problems (males)\n\nLong term effects:\n
+    • Lower life satisfaction\n• Decline in IQ\n• Impaired thinking</string>
 
     <!-- MethActivity -->
     <string name="meth_title">Methamphetamine</string>
