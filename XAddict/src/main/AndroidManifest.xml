@@ -21,11 +21,9 @@
         <activity android:name=".DrugsListActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".HomepageActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity" android:screenOrientation="sensor"/>
         <activity android:name=".SignupActivity" />
-        <activity
-            android:name=".SplashScreenActivity"
-            android:screenOrientation="sensor">
+        <activity android:name=".SplashScreenActivity" android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
