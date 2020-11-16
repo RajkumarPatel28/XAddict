@@ -69,7 +69,11 @@
     <string name="heroin_title">Héroïne</string>
 
     <!-- MarijuanaActivity -->
-
+    <string name="marijuana_information">L\'herbe est un terme courant et une drogue récréative qui
+        provient de la plante de marijuana: la plante de chanvre de cannabis. Le pharmacologiquement
+        l\'ingrédient actif de la marijuana est le tétrahydrocannabinol. (THC)\n\nEffets à court terme:\n
+    • Risque accru d\'accident vasculaire cérébral\n• Hallucinations\n• Problèmes sexuels (hommes)\n\nEffets à long terme:\n
+    • Satisfaction à la vie inférieure\n • Baisse du QI\n • Pensée altérée</string>
 
     <!-- MethActivity -->
     <string name="meth_title">Méthamphétamine</string>
