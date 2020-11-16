@@ -81,6 +81,10 @@
 
     <!-- HeroinActivity -->
     <string name="heroin_title">Heroin</string>
+    <string name="heroin_information">Heroin is a highly addictive opioid drug, and its use has
+        repercussions that extend far beyond the individual user. It can be seen as a white or
+        brown powder that is made from morphine used from opium poppy plants.\n\nShort term effects:\n
+    • Drowsiness\n• Nausea\n• Coma\n\nLong term effects:\n• Bad teeth\n• Constipation\n• Introversion</string>
 
     <!-- MarijuanaActivity -->
     <string name="marijuana_title" translatable="false">Marijuana</string>

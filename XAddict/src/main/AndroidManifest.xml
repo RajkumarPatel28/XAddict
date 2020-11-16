@@ -13,7 +13,7 @@
         <activity android:name=".ScheduleActivity" />
         <activity android:name=".StatusActivity" />
         <activity android:name=".MethActivity" />
-        <activity android:name=".HeroinActivity" />
+        <activity android:name=".HeroinActivity" android:screenOrientation="sensor"/>
         <activity android:name=".OpioidsActivity" />
         <activity android:name=".SyntheticsActivity" android:screenOrientation="sensor"/>
         <activity android:name=".CocaineActivity" android:screenOrientation="sensor"/>
