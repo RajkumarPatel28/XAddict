@@ -95,10 +95,21 @@
     • Lower life satisfaction\n• Decline in IQ\n• Impaired thinking</string>
 
     <!-- MethActivity -->
-    <string name="meth_title">Methamphetamine</string>
+    <string name="meth_title">Psychosis</string>
+    <string name="meth_information">Meth is a powerful, highly addictive stimulant that
+        affects the central nervous system. It takes the form of a white, odorless, bitter-tasting
+        crystalline powder that easily dissolves in water or alcohol. The pharmacologically
+        active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\nShort term effects:\n
+    • Loss of appetite \n• Dilation\n• Nausea\n\nLong term effects:\n
+    • Severe tooth decay \n• Liver, kidney, and lung damage \n• Psychosis</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioids (Oxycodone)</string>
+    <string name="opioids_information">Opioids are a class of drugs naturally found in the opium
+        poppy plant. Some prescription opioids are made from the plant directly, and others are made
+        by scientists in labs using the same chemical structure. (THC)\n\nShort term effects:\n
+    •  Drowsiness \n• Nausea\n•  Coma\n\nLong term effects:\n
+    • Diarrhea\n•  Vomiting \n•  Muscle and bone pain</string>
 
     <!-- Strings below this point must be checked and or translated -->
     <string name="settings_fullnamevalue">fullName</string>
