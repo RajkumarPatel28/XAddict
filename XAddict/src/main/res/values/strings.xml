@@ -36,7 +36,7 @@
     <!-- HomepageActivity -->
     <string name="homepage_talk">Need someone to talk to?</string>
     <string name="homepage_callbutton">Wellness Together Canada</string>
-    <string name="homepage_telephone">tel:1(866)585–0445</string>
+    <string name="homepage_telephone" translatable="false">tel:1(866)585–0445</string>
     <string name="homepage_message">You must logout through settings</string>
 
     <!-- BottomNavMenu -->

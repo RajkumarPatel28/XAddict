@@ -30,6 +30,11 @@
     <string name="signup_registrationsuccessmessage">Inscription réussi</string>
     <string name="signup_registrationfailuremessage">L\'enregistrement a échoué, veuillez réessayer plus tard</string>
 
+    <!-- HomepageActivity -->
+    <string name="homepage_talk">Besoin de parler à quelqu\'un?</string>
+    <string name="homepage_callbutton">Bien-être ensemble Canada</string>
+    <string name="homepage_message">Vous devez vous déconnecter via les paramètres</string>
+
     <!-- BottomNavMenu -->
     <string name="bottomnav_schedule">Programme</string>
     <string name="bottomnav_status">Statut</string>
@@ -70,10 +75,26 @@
     <string name="setting_teamname">Réduire l\'équipe de lutte contre les abus:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
-
+    <string-array name="schedule_times">
+        <item>2 PM</item>
+        <item>8 PM</item>
+    </string-array>
 
     <!-- StatusActivity -->
-
+    <string name="status_title">Statut</string>
+    <string name="status_use">Avez-vous utilisé aujourd\'hui?</string>
+    <string name="status_yesradio">Oui</string>
+    <string name="status_noradio">Non</string>
+    <string name="status_crave">Quelle est votre envie en ce moment?</string>
+    <string name="status_trigger">Quels éléments déclencheurs affectent cette envie?</string>
+    <string name="status_hungry">AFFAMÉ</string>
+    <string name="status_angry">EN COLÈRE</string>
+    <string name="status_lonely">SOLITAIRE</string>
+    <string name="status_tired">FATIGUÉ</string>
+    <string name="status_anxiety">ANXIÉTÉ</string>
+    <string name="status_pain">DOULEUR</string>
+    <string name="status_other">AUTRE</string>
+    <string name="status_savebutton">Sauvegarder</string>
 
     <!-- Shared between Drug Activities -->
     <string name="moreinformationbutton">Plus d\'information</string>
