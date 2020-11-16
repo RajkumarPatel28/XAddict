@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ScheduleActivity" />
-        <activity android:name=".StatusActivity" />
+        <activity android:name=".StatusActivity" android:screenOrientation="sensor"/>
         <activity android:name=".MethActivity"  android:screenOrientation="sensor"/>
         <activity android:name=".HeroinActivity" android:screenOrientation="sensor"/>
         <activity android:name=".OpioidsActivity"  android:screenOrientation="sensor"/>
