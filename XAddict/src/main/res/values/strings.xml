@@ -33,6 +33,12 @@
     <string name="signup_registrationsuccessmessage">Registration successful</string>
     <string name="signup_registrationfailuremessage">Registration failed, please try again later</string>
 
+    <!-- HomepageActivity -->
+    <string name="homepage_talk">Need someone to talk to?</string>
+    <string name="homepage_callbutton">Wellness Together Canada</string>
+    <string name="homepage_telephone">tel:1(866)585-0445</string>
+    <string name="homepage_message">You must logout through settings</string>
+
     <!-- BottomNavMenu -->
     <string name="bottomnav_information" translatable="false">Information</string>
     <string name="bottomnav_schedule">Schedule</string>
