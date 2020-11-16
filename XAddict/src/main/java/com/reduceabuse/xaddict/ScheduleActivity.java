@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.CalendarContract;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Objects;
@@ -44,7 +46,12 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
             }
         });
 
+
         Spinner spinner = (Spinner) findViewById(R.id.spPickTime);
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(ScheduleActivity.this, android.R.layout.browser_link_context_header, getResources().getStringArray(R.array.schedule_times));
+
+        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(myAdapter);
     }
 
 
