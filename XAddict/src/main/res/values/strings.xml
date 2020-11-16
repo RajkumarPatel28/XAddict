@@ -36,7 +36,7 @@
     <!-- HomepageActivity -->
     <string name="homepage_talk">Need someone to talk to?</string>
     <string name="homepage_callbutton">Wellness Together Canada</string>
-    <string name="homepage_telephone">tel:1(866)585-0445</string>
+    <string name="homepage_telephone">tel:1(866)585–0445</string>
     <string name="homepage_message">You must logout through settings</string>
 
     <!-- BottomNavMenu -->
@@ -80,7 +80,10 @@
     <string name="setting_teamname">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
-
+    <string-array name="schedule_times">
+        <item>2 PM</item>
+        <item>8 PM</item>
+    </string-array>
 
     <!-- StatusActivity -->
     <string name="status_title">Status</string>
@@ -89,6 +92,7 @@
     <string name="status_noradio">No</string>
     <string name="status_crave">How strong is your craving right now?</string>
     <string name="status_trigger">What triggers are affecting this craving?</string>
+    <string name="status_hungry">HUNGRY</string>
     <string name="status_angry">ANGRY</string>
     <string name="status_lonely">LONELY</string>
     <string name="status_tired">TIRED</string>
@@ -146,11 +150,4 @@
         by scientists in labs using the same chemical structure. \n\nShort term effects:\n
     • Drowsiness \n• Nausea\n• Coma\n\nLong term effects:\n
     • Diarrhea\n• Vomiting \n• Muscle and bone pain</string>
-
-    <!-- ScheduleActivity -->
-    <string-array name="Times">
-    <item>2 PM</item>
-    <item>8 PM</item>
-    </string-array>
-
 </resources>
