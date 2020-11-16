@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,6 +43,8 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
 
             }
         });
+
+        Spinner spinner = (Spinner) findViewById(R.id.spPickTime);
     }
 
 

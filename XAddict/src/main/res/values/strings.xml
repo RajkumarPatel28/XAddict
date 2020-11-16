@@ -140,4 +140,11 @@
         by scientists in labs using the same chemical structure. \n\nShort term effects:\n
     • Drowsiness \n• Nausea\n• Coma\n\nLong term effects:\n
     • Diarrhea\n• Vomiting \n• Muscle and bone pain</string>
+
+    <!-- ScheduleActivity -->
+    <string-array name="Times">
+    <item>2 PM</item>
+    <item>8 PM</item>
+    </string-array>
+
 </resources>
