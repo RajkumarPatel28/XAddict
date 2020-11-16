@@ -72,8 +72,8 @@
     <string name="settings_aboutustitle">About Us</string>
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
-    <string name="settings_submitbtn">Submit</string>
-    <string name="settings_logoutbtn">Logout</string>
+    <string name="settings_submitbutton">Submit</string>
+    <string name="settings_logoutbutton">Logout</string>
     <string name="settings_namehint">Name</string>
     <string name="settings_review">Tell us a bit more of why you chose the above</string>
     <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
