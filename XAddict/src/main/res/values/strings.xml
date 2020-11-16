@@ -85,24 +85,23 @@
     <!-- CocaineActivity -->
     <string name="cocaine_title">Cocaine</string>
     <string name="cocaine_information">Cocaine is a strong stimulant, which is most frequently used as
-    a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or
-        inhaled as smoke. \n\nShort term effects:\n• Constricted blood vessels\n• Dilated pupils\n
-        • Increase in body temperature\n\nLong term effects:\n• Increased risk for stroke and seizures\n
+    a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled
+        as smoke. \n\n Short term effects:\n• Constricted blood vessels\n• Dilated pupils\n
+        • Increase in body temperature\n\n Long term effects:\n• Increased risk for stroke and seizures\n
         • Movement disorders; Parkinson\'s disease\n• Intracerebral hemorrhage</string>
 
     <!-- SyntheticsActivity -->
     <string name="synthetics_title">Synthetics (MDMA)</string>
     <string name="synthetics_information">MDMA is a synthetic drug that alters mood and perception. It is most
-        commonly snorted like powder, taken as a capsule or tablet, or swallowed in liquid form.\n\nShort
-        term effects:\n• Impaired judgment\n• Depression\n• Involuntary teeth clenching\n\nLong term effects:\n
+        commonly snorted like powder, taken as a capsule or tablet, or swallowed in liquid form.\n\n Short
+        term effects:\n• Impaired judgment\n• Depression\n• Involuntary teeth clenching\n\n Long term effects:\n
         • Kidney failure\n• Hemorrhaging\n• Death</string>
-
 
     <!-- HeroinActivity -->
     <string name="heroin_title">Heroin</string>
     <string name="heroin_information">Heroin is a highly addictive opioid drug, and its use has
         repercussions that extend far beyond the individual user. It can be seen as a white or
-        brown powder that is made from morphine used from opium poppy plants.\n\nShort term effects:\n
+        brown powder that is made from morphine used from opium poppy plants.\n\n Short term effects:\n
     • Drowsiness\n• Nausea\n• Coma\n\nLong term effects:\n• Bad teeth\n• Constipation\n• Introversion</string>
 
     <!-- MarijuanaActivity -->
@@ -118,15 +117,15 @@
     <string name="meth_information">Meth is a powerful, highly addictive stimulant that
         affects the central nervous system. It takes the form of a white, odorless, bitter-tasting
         crystalline powder that easily dissolves in water or alcohol. The pharmacologically
-        active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\nShort term effects:\n
-    • Loss of appetite \n• Dilation\n• Nausea\n\nLong term effects:\n
+        active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\n Short term effects:\n
+    • Loss of appetite \n• Dilation\n• Nausea\n\n Long term effects:\n
     • Severe tooth decay \n• Liver, kidney, and lung damage \n• Psychosis</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioids (Oxycodone)</string>
     <string name="opioids_information">Opioids are a class of drugs naturally found in the opium
         poppy plant. Some prescription opioids are made from the plant directly, and others are made
-        by scientists in labs using the same chemical structure. (THC)\n\nShort term effects:\n
-    •  Drowsiness \n• Nausea\n•  Coma\n\nLong term effects:\n
-    • Diarrhea\n•  Vomiting \n•  Muscle and bone pain</string>
+        by scientists in labs using the same chemical structure. \n\nShort term effects:\n
+    • Drowsiness \n• Nausea\n• Coma\n\nLong term effects:\n
+    • Diarrhea\n• Vomiting \n• Muscle and bone pain</string>
 </resources>

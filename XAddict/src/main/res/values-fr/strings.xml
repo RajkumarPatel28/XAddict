@@ -80,16 +80,27 @@
 
     <!-- CocaineActivity -->
     <string name="cocaine_title">Cocaïne</string>
+    <string name="cocaine_information">La cocaïne est un stimulant puissant, qui est le plus
+        fréquemment utilisé comme une drogue récréative. Il est le plus souvent reniflé, dissous et
+        injecté dans une veine, ou inhalé sous forme de fumée. \n\n Effets à court terme:\n
+        • Vaisseaux sanguins resserrés\n• Pupilles dilatées\n• Augmentation de la température corporelle\n\n
+        Effets à long terme:\n• Risque accru d\'accident vasculaire cérébral et de convulsions\n• Troubles du mouvement;
+        Parkinson\'s maladie\n• Hémorragie intracérébrale</string>
 
     <!-- SyntheticsActivity -->
     <string name="synthetics_title">Synthétiques (MDMA)</string>
+    <string name="synthetics_information">La MDMA est une drogue synthétique qui modifie l\'humeur et la
+        perception. C\'est le plus généralement reniflé comme de la poudre, pris sous forme de capsule
+        ou de comprimé, ou avalé sous forme liquide.\n\n Effets à court terme:\n• Jugement altéré\n
+        • La dépression\n• Serrage involontaire des dents\n\n Effets à long terme:\n• Insuffisance rénale\n
+        • Hémorragie\n• Décès</string>
 
     <!-- HeroinActivity -->
     <string name="heroin_title">Héroïne</string>
     <string name="heroin_information">L\'héroïne est un opioïde hautement addictif et son utilisation
         a des répercussions qui vont bien au-delà de l\'utilisateur individuel. Il peut être vu comme
         un blanc ou poudre brune fabriquée à partir de morphine utilisée à partir de plants de pavot à
-        opium.\n\nEffets à court terme:\n• Somnolence\n• La nausée\n• Coma\n\nEffets à long terme:\n
+        opium.\n\n Effets à court terme:\n• Somnolence\n• La nausée\n• Coma\n\n Effets à long terme:\n
         • Mauvaise dent\n• Constipation\n• Introversion</string>
 
     <!-- MarijuanaActivity -->
@@ -101,7 +112,18 @@
 
     <!-- MethActivity -->
     <string name="meth_title">Méthamphétamine</string>
+    <string name="meth_information">Meth est un stimulant puissant et hautement addictif qui affecte
+        le système nerveux central. Il prend la forme d\'un blanc, inodore, au goût amer poudre
+        cristalline qui se dissout facilement dans l\'eau ou l\'alcool. Le pharmacologiquement
+        l\'ingrédient actif de la marijuana est le tétrahydrocannabinol. (THC)\n\nEffets à court terme:\n
+    • Perte d\'appétit \n• Dilatation\n• La nausée\n\nEffets à long terme:\n• Carie dentaire sévère \n
+    • Lésions hépatiques, rénales et pulmonaires \n• Psychose</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioïdes (Oxycodone)</string>
+    <string name="opioids_information">Les opioïdes sont une classe de médicaments naturellement présents
+        dans l\'opium plante de pavot. Certains opioïdes sur ordonnance sont fabriqués directement à
+        partir de la plante et d\'autres sont fabriqués par des scientifiques dans des laboratoires
+        utilisant la même structure chimique. \n\nEffets à court terme:\n• Somnolence \n• La nausée\n
+    • Coma\n\n Effets à long terme:\n• La diarrhée\n• Vomissement \n• Douleurs musculaires et osseuses</string>
 </resources>
