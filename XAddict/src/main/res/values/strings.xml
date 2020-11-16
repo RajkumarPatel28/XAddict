@@ -52,7 +52,26 @@
     </string-array>
 
     <!-- SettingsActivity -->
-
+    <string name="settings_fullnamevalue">fullName</string>
+    <string name="settings_phonenumbervalue">phoneNumber</string>
+    <string name="settings_fullnameerror">Please Enter Your Full Name</string>
+    <string name="settings_updatedmessage">Successfully Updated Profile</string>
+    <string name="settings_logoutmessage">Successfully Logged Out</string>
+    <string name="settings_reviewstitle">Reviews</string>
+    <string name="settings_ratingtitle">Rating</string>
+    <string name="settings_feedbacktitle">App Feedback</string>
+    <string name="settings_feedbackerror">Please provide a review</string>
+    <string name="settings_feedbackmessage">Thank you for your feedback</string>
+    <string name="settings_updateprofiletitle">Update Profile</string>
+    <string name="settings_aboutustitle">About Us</string>
+    <string name="settings_fullnamehint">Full Name</string>
+    <string name="settings_phonenumberhint">Phone Number</string>
+    <string name="settings_submitbtn">Submit</string>
+    <string name="settings_logoutbtn">Logout</string>
+    <string name="settings_namehint">Name</string>
+    <string name="settings_review">Tell us a bit more of why you chose the above</string>
+    <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
+    <string name="setting_teamname">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
 
@@ -110,26 +129,4 @@
         by scientists in labs using the same chemical structure. (THC)\n\nShort term effects:\n
     •  Drowsiness \n• Nausea\n•  Coma\n\nLong term effects:\n
     • Diarrhea\n•  Vomiting \n•  Muscle and bone pain</string>
-
-    <!-- Strings below this point must be checked and or translated -->
-    <string name="settings_fullnamevalue">fullName</string>
-    <string name="settings_phonenumbervalue">phoneNumber</string>
-    <string name="settings_fullnameerror">Please Enter Your Full Name</string>
-    <string name="settings_updatedmessage">Successfully Updated Profile</string>
-    <string name="settings_logoutmessage">Successfully Logged Out</string>
-    <string name="settings_reviewstitle">Reviews</string>
-    <string name="settings_ratingtitle">Rating</string>
-    <string name="settings_feedbacktitle">App Feedback</string>
-    <string name="settings_feedbackerror">Please provide a review</string>
-    <string name="settings_feedbackmessage">Thank you for your feedback</string>
-    <string name="settings_updateprofiletitle">Update Profile</string>
-    <string name="settings_aboutustitle">About Us</string>
-    <string name="settings_fullnamehint">Full Name</string>
-    <string name="settings_phonenumberhint">Phone Number</string>
-    <string name="settings_submitbtn">Submit</string>
-    <string name="settings_logoutbtn">Logout</string>
-    <string name="settings_namehint">Name</string>
-    <string name="settings_review">Tell us a bit more of why you chose the above</string>
-    <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
-    <string name="setting_teamname">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 </resources>
