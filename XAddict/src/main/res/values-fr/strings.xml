@@ -48,7 +48,26 @@
     </string-array>
 
     <!-- SettingsActivity -->
-
+    <string name="settings_fullnamevalue">nom complet</string>
+    <string name="settings_phonenumbervalue">numéro de téléphone</string>
+    <string name="settings_fullnameerror">S\'il vous plait entrez votre nom entier</string>
+    <string name="settings_updatedmessage">Profil mis à jour avec succès</string>
+    <string name="settings_logoutmessage">Déconnexion réussie</string>
+    <string name="settings_reviewstitle">Commentaires</string>
+    <string name="settings_ratingtitle">Évaluation</string>
+    <string name="settings_feedbacktitle">Commentaires sur l\'application</string>
+    <string name="settings_feedbackerror">Veuillez fournir un avis</string>
+    <string name="settings_feedbackmessage">Merci pour votre avis</string>
+    <string name="settings_updateprofiletitle">Mettre à jour le profil</string>
+    <string name="settings_aboutustitle">À propos de nous</string>
+    <string name="settings_fullnamehint">Nom complet</string>
+    <string name="settings_phonenumberhint">Numéro de téléphone</string>
+    <string name="settings_submitbtn">Soumettre</string>
+    <string name="settings_logoutbtn">Se déconnecter</string>
+    <string name="settings_namehint">Nom</string>
+    <string name="settings_review">Dites-nous un peu plus pourquoi vous avez choisi ce qui précède</string>
+    <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
+    <string name="setting_teamname">Réduire l\'équipe de lutte contre les abus:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
 
@@ -61,12 +80,28 @@
 
     <!-- CocaineActivity -->
     <string name="cocaine_title">Cocaïne</string>
+    <string name="cocaine_information">La cocaïne est un stimulant puissant, qui est le plus
+        fréquemment utilisé comme une drogue récréative. Il est le plus souvent reniflé, dissous et
+        injecté dans une veine, ou inhalé sous forme de fumée. \n\n Effets à court terme:\n
+        • Vaisseaux sanguins resserrés\n• Pupilles dilatées\n• Augmentation de la température corporelle\n\n
+        Effets à long terme:\n• Risque accru d\'accident vasculaire cérébral et de convulsions\n• Troubles du mouvement;
+        Parkinson\'s maladie\n• Hémorragie intracérébrale</string>
 
     <!-- SyntheticsActivity -->
     <string name="synthetics_title">Synthétiques (MDMA)</string>
+    <string name="synthetics_information">La MDMA est une drogue synthétique qui modifie l\'humeur et la
+        perception. C\'est le plus généralement reniflé comme de la poudre, pris sous forme de capsule
+        ou de comprimé, ou avalé sous forme liquide.\n\n Effets à court terme:\n• Jugement altéré\n
+        • La dépression\n• Serrage involontaire des dents\n\n Effets à long terme:\n• Insuffisance rénale\n
+        • Hémorragie\n• Décès</string>
 
     <!-- HeroinActivity -->
     <string name="heroin_title">Héroïne</string>
+    <string name="heroin_information">L\'héroïne est un opioïde hautement addictif et son utilisation
+        a des répercussions qui vont bien au-delà de l\'utilisateur individuel. Il peut être vu comme
+        un blanc ou poudre brune fabriquée à partir de morphine utilisée à partir de plants de pavot à
+        opium.\n\n Effets à court terme:\n• Somnolence\n• La nausée\n• Coma\n\n Effets à long terme:\n
+        • Mauvaise dent\n• Constipation\n• Introversion</string>
 
     <!-- MarijuanaActivity -->
     <string name="marijuana_information">L\'herbe est un terme courant et une drogue récréative qui
@@ -77,23 +112,18 @@
 
     <!-- MethActivity -->
     <string name="meth_title">Méthamphétamine</string>
+    <string name="meth_information">Meth est un stimulant puissant et hautement addictif qui affecte
+        le système nerveux central. Il prend la forme d\'un blanc, inodore, au goût amer poudre
+        cristalline qui se dissout facilement dans l\'eau ou l\'alcool. Le pharmacologiquement
+        l\'ingrédient actif de la marijuana est le tétrahydrocannabinol. (THC)\n\nEffets à court terme:\n
+    • Perte d\'appétit \n• Dilatation\n• La nausée\n\nEffets à long terme:\n• Carie dentaire sévère \n
+    • Lésions hépatiques, rénales et pulmonaires \n• Psychose</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioïdes (Oxycodone)</string>
-
-    <!-- Strings below this point must be checked and or translated -->
-    <string name="settings_title">Settings</string>
-    <string name="setting_team_reduce_abuse">Reduce Abuse Team:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
-    <string name="settings_fullnamehint">Full Name</string>
-    <string name="settings_phonenumberhint">Phone Number</string>
-    <string name="settings_emailaddresshint">Email Address</string>
-    <string name="profile_title">Profile</string>
-    <string name="theme_title">Theme</string>
-    <string name="aboutus_title">About Us</string>
-    <string name="appfeedback_title">App Feedback</string>
-    <string name="overflow_itemprofile">Profile</string>
-    <string name="overflow_itemtheme">Theme</string>
-    <string name="overflow_itemaboutus">About Us</string>
-    <string name="overflow_itemappfeedback">App Feedback</string>
-    <string name="settings_updateprofiletitle">Update Profile</string>
+    <string name="opioids_information">Les opioïdes sont une classe de médicaments naturellement présents
+        dans l\'opium plante de pavot. Certains opioïdes sur ordonnance sont fabriqués directement à
+        partir de la plante et d\'autres sont fabriqués par des scientifiques dans des laboratoires
+        utilisant la même structure chimique. \n\nEffets à court terme:\n• Somnolence \n• La nausée\n
+    • Coma\n\n Effets à long terme:\n• La diarrhée\n• Vomissement \n• Douleurs musculaires et osseuses</string>
 </resources>
