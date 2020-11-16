@@ -161,7 +161,6 @@
                 android:text="@string/setting_teamname"
                 android:textColor="@color/colorWhite"
                 android:textSize="26sp" />
-
         </LinearLayout>
     </ViewFlipper>
 </LinearLayout>
