@@ -97,7 +97,6 @@
     <string name="opioids_title">Opioids (Oxycodone)</string>
 
     <!-- Strings below this point must be checked and or translated -->
-    <string name="settings_title">Settings</string>
     <string name="settings_fullnamevalue">fullName</string>
     <string name="settings_phonenumbervalue">phoneNumber</string>
     <string name="settings_fullnameerror">Please Enter Your Full Name</string>
@@ -110,7 +109,6 @@
     <string name="settings_feedbackmessage">Thank you for your feedback</string>
     <string name="settings_updateprofiletitle">Update Profile</string>
     <string name="settings_aboutustitle">About Us</string>
-    <string name="settings_infotv">You may implement the setting tools provided</string>
     <string name="settings_fullnamehint">Full Name</string>
     <string name="settings_phonenumberhint">Phone Number</string>
     <string name="settings_submitbtn">Submit</string>

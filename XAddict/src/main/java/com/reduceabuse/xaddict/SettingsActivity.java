@@ -34,10 +34,10 @@ public class SettingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        setTitle(getString(R.string.settings_title));
 
         vfSettings = findViewById(R.id.vfSettings);
         vfSettings.setDisplayedChild(0);
+        setTitle(getString(R.string.settings_updateprofiletitle));
 
         etFullName = findViewById(R.id.etFullName);
         etPhoneNumber = findViewById(R.id.etPhoneNumber);
@@ -120,15 +120,15 @@ public class SettingsActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.profile:
                 setTitle(getString(R.string.settings_updateprofiletitle));
-                vfSettings.setDisplayedChild(1);
+                vfSettings.setDisplayedChild(0);
                 return true;
             case R.id.appFeedback:
                 setTitle(getString(R.string.settings_feedbacktitle));
-                vfSettings.setDisplayedChild(2);
+                vfSettings.setDisplayedChild(1);
                 return true;
             case R.id.aboutUs:
                 setTitle(getString(R.string.settings_aboutustitle));
-                vfSettings.setDisplayedChild(3);
+                vfSettings.setDisplayedChild(2);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
