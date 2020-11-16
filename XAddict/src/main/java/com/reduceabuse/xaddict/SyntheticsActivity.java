@@ -18,7 +18,7 @@ public class SyntheticsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_synthetics);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        Button btnInfo = (Button) findViewById(R.id.btnInfo);
+        Button btnInfo = findViewById(R.id.btnInfo);
         btnInfo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent;
