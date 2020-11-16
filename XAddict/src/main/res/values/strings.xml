@@ -73,6 +73,11 @@
 
     <!-- SyntheticsActivity -->
     <string name="synthetics_title">Synthetics (MDMA)</string>
+    <string name="synthetics_information">MDMA is a synthetic drug that alters mood and perception. It is most
+        commonly snorted like powder, taken as a capsule or tablet, or swallowed in liquid form.\n\nShort
+        term effects:\n• Impaired judgment\n• Depression\n• Involuntary teeth clenching\n\nLong term effects:\n
+        • Kidney failure\n• Hemorrhaging\n• Death</string>
+
 
     <!-- HeroinActivity -->
     <string name="heroin_title">Heroin</string>
