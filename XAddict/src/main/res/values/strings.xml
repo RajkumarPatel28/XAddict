@@ -65,6 +65,11 @@
 
     <!-- CocaineActivity -->
     <string name="cocaine_title">Cocaine</string>
+    <string name="cocaine_information">Cocaine is a strong stimulant, which is most frequently used as
+    a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or
+        inhaled as smoke. \n\nShort term effects:\n• Constricted blood vessels\n• Dilated pupils\n
+        • Increase in body temperature\n\nLong term effects:\n• Increased risk for stroke and seizures\n
+        • Movement disorders; Parkinson\'s disease\n• Intracerebral hemorrhage</string>
 
     <!-- SyntheticsActivity -->
     <string name="synthetics_title">Synthetics (MDMA)</string>
