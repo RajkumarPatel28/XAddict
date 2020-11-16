@@ -77,7 +77,19 @@
 
 
     <!-- StatusActivity -->
-
+    <string name="status_title">Status</string>
+    <string name="status_use">Have you used today?</string>
+    <string name="status_yesradio">Yes</string>
+    <string name="status_noradio">No</string>
+    <string name="status_crave">How strong is your craving right now?</string>
+    <string name="status_trigger">What triggers are affecting this craving?</string>
+    <string name="status_angry">ANGRY</string>
+    <string name="status_lonely">LONELY</string>
+    <string name="status_tired">TIRED</string>
+    <string name="status_anxiety">ANXIETY</string>
+    <string name="status_pain">PAIN</string>
+    <string name="status_other">OTHER</string>
+    <string name="status_savebutton">Save</string>
 
     <!-- Shared between Drug Activities -->
     <string name="moreinformationbutton">More Information</string>
