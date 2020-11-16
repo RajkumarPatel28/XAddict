@@ -12,9 +12,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ScheduleActivity" />
         <activity android:name=".StatusActivity" />
-        <activity android:name=".MethActivity" />
+        <activity android:name=".MethActivity"  android:screenOrientation="sensor"/>
         <activity android:name=".HeroinActivity" android:screenOrientation="sensor"/>
-        <activity android:name=".OpioidsActivity" />
+        <activity android:name=".OpioidsActivity"  android:screenOrientation="sensor"/>
         <activity android:name=".SyntheticsActivity" android:screenOrientation="sensor"/>
         <activity android:name=".CocaineActivity" android:screenOrientation="sensor"/>
         <activity android:name=".MarijuanaActivity" android:screenOrientation="sensor"/>
