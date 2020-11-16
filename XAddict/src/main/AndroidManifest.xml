@@ -15,7 +15,7 @@
         <activity android:name=".MethActivity" />
         <activity android:name=".HeroinActivity" />
         <activity android:name=".OpioidsActivity" />
-        <activity android:name=".SyntheticsActivity" />
+        <activity android:name=".SyntheticsActivity" android:screenOrientation="sensor"/>
         <activity android:name=".CocaineActivity" android:screenOrientation="sensor"/>
         <activity android:name=".MarijuanaActivity" android:screenOrientation="sensor"/>
         <activity android:name=".DrugsListActivity" />
