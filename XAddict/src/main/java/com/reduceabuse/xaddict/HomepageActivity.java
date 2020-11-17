@@ -16,7 +16,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.Objects;
 
 public class HomepageActivity extends AppCompatActivity {
-    Button btnCall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +23,7 @@ public class HomepageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        btnCall = findViewById(R.id.btnCall);
+        Button btnCall = findViewById(R.id.btnCall);
         btnCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
