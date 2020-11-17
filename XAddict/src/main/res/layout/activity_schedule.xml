@@ -26,6 +26,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="Date"
+          android:layout_marginTop="100dp"
+          android:layout_marginStart="25dp"
           android:textColor="@color/colorWhite"
           android:textSize="25dp"
           android:textStyle="bold"/>
@@ -34,6 +36,7 @@
           android:id="@+id/etOpenCalendar"
           android:layout_width="382dp"
           android:layout_height="48dp"
+          android:layout_marginStart="25dp"
           android:focusable="false"
           android:textColor="@color/colorWhite"
           android:textSize="20dp"/>
@@ -43,6 +46,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="Time"
+          android:layout_marginTop="50dp"
+          android:layout_marginStart="25dp"
           android:textColor="@color/colorWhite"
           android:textSize="25dp"
           android:textStyle="bold"/>
@@ -50,6 +55,7 @@
          <Spinner
           android:id="@+id/spPickTime"
           android:layout_width="152dp"
+          android:layout_marginStart="25dp"
           android:layout_height="35dp"
           android:textColor="@color/colorWhite"
           android:textSize="10dp" />
@@ -59,6 +65,7 @@
         android:id="@+id/btnBook"
         style="@style/ButtonStyle"
         android:layout_width="340dip"
+        android:layout_marginTop="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Book Now"/>

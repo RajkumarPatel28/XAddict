@@ -73,7 +73,8 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
 
 
         if(strCurrentDate.equals(strDateString) ){
-            DisplayToast("You are to late for todays appointments");
+            DisplayToast("You are to late for todays appointments" +
+                    " You Must book 1 day before");
         }else{
             EditText editText = (EditText) findViewById(R.id.etOpenCalendar);
             editText.setText(strDateString);
