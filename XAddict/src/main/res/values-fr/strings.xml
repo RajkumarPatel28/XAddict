@@ -96,6 +96,8 @@
     <string name="status_other">AUTRE</string>
     <string name="status_savebutton">Sauvegarder</string>
     <string name="status_resetbutton">Réinitialiser</string>
+    <string name="status_savemessage">Statut enregistré</string>
+    <string name="status_resetmessage">Réinitialisation de l\'état</string>
 
     <!-- Shared between Drug Activities -->
     <string name="moreinformationbutton">Plus d\'information</string>
