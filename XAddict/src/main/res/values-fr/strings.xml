@@ -5,6 +5,7 @@
     <string name="login_needaccount">Vous n\'avez pas encore de compte?</string>
     <string name="login_createaccountbutton">CRÉER UN COMPTE</string>
     <string name="login_passworderror">Entrer un mot de passe</string>
+    <string name="login_verifymessage">Vérifiez l\'adresse e-mail, vérifiez l\'e-mail fourni</string>
     <string name="login_loginerror">Échec de la connexion, veuillez réessayer</string>
     <string name="login_dialogresetmessage">Entrez votre email pour réinitialiser le mot de passe:</string>
     <string name="login_dialogpositive">Oui</string>

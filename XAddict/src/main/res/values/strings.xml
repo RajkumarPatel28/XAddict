@@ -8,6 +8,7 @@
     <string name="login_needaccount">Don\'t have an account yet?</string>
     <string name="login_createaccountbutton">CREATE AN ACCOUNT</string>
     <string name="login_passworderror">Enter a password</string>
+    <string name="login_verifymessage">Verify email address, check provided email</string>
     <string name="login_loginerror">Login failed, please try again</string>
     <string name="login_dialogresetmessage">Enter your email to reset password:</string>
     <string name="login_dialogpositive">Yes</string>

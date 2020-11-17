@@ -67,8 +67,12 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
-                            startActivity(intent);
+                            if (fbAuth.getCurrentUser().isEmailVerified()) {
+                                Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
+                                startActivity(intent);
+                            } else {
+                                Toast.makeText(LoginActivity.this, getString(R.string.login_verifymessage), Toast.LENGTH_SHORT).show();
+                            }
                         } else {
                             Toast.makeText(LoginActivity.this, getString(R.string.login_loginerror), Toast.LENGTH_SHORT).show();
                         }
