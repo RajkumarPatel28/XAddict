@@ -32,7 +32,7 @@
         android:id="@+id/tvTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dip"
+        android:layout_marginStart="200dip"
         android:layout_marginTop="50dp"
         android:text="@string/schedule_time"
         android:textColor="@color/colorWhite"
@@ -42,7 +42,7 @@
         android:id="@+id/spTime"
         android:layout_width="293dip"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dip"
+        android:layout_marginStart="200dip"
         android:textColor="@color/colorWhite" />
 
     <Button
@@ -51,6 +51,6 @@
         android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="230dip"
+        android:layout_marginTop="76dip"
         android:text="@string/schedule_bookbutton" />
 </LinearLayout>
