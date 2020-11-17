@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,65 +7,50 @@
     android:orientation="vertical"
     tools:context=".ScheduleActivity">
 
-
     <TextView
         android:id="@+id/tvTitle"
         style="@style/TitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Appointment" />
+        android:text="@string/schedule_title" />
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/etDate"
+        style="@style/EditTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:ems="14"
+        android:focusable="false"
+        android:hint="@string/schedule_datehint"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tvTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginStart="60dip"
+        android:layout_marginTop="50dp"
+        android:text="@string/schedule_time"
+        android:textColor="@color/colorWhite"
+        android:textSize="19sp" />
 
-        <TextView
-          android:id="@+id/tvDate"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Date"
-          android:layout_marginTop="100dp"
-          android:layout_marginStart="25dp"
-          android:textColor="@color/colorWhite"
-          android:textSize="25dp"
-          android:textStyle="bold"/>
-
-         <EditText
-          android:id="@+id/etOpenCalendar"
-          android:layout_width="382dp"
-          android:layout_height="48dp"
-          android:layout_marginStart="25dp"
-          android:focusable="false"
-          android:textColor="@color/colorWhite"
-          android:textSize="20dp"/>
-
-         <TextView
-          android:id="@+id/tvTime"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Time"
-          android:layout_marginTop="50dp"
-          android:layout_marginStart="25dp"
-          android:textColor="@color/colorWhite"
-          android:textSize="25dp"
-          android:textStyle="bold"/>
-
-         <Spinner
-          android:id="@+id/spPickTime"
-          android:layout_width="152dp"
-          android:layout_marginStart="25dp"
-          android:layout_height="35dp"
-          android:textColor="@color/colorWhite"
-          android:textSize="10dp" />
-    </LinearLayout>
+    <Spinner
+        android:id="@+id/spTime"
+        android:layout_width="293dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dip"
+        android:textColor="@color/colorWhite" />
 
     <Button
         android:id="@+id/btnBook"
         style="@style/ButtonStyle"
         android:layout_width="340dip"
-        android:layout_marginTop="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Book Now"/>
+        android:layout_marginTop="230dp"
+        android:text="@string/schedule_bookbutton" />
 </LinearLayout>

@@ -1,14 +1,13 @@
 package com.reduceabuse.xaddict;
 
-import android.app.DatePickerDialog;
-import android.app.Dialog;
-import android.os.Bundle;
-import android.provider.CalendarContract;
-import android.widget.DatePicker;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.os.Bundle;
+import android.widget.DatePicker;
 
 import java.util.Calendar;
 
@@ -23,14 +22,11 @@ public class DatePickerFragment extends DialogFragment {
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
 
-        DatePickerDialog d = new DatePickerDialog(getActivity(), (DatePickerDialog.OnDateSetListener) getActivity(), year, month, day);
-        DatePicker dp = d.getDatePicker();
+        DatePickerDialog dialog = new DatePickerDialog(requireActivity(), (DatePickerDialog.OnDateSetListener) getActivity(), year, month, day);
 
-        //removing past dates
-        dp.setMinDate(calendar.getTimeInMillis());
+        DatePicker picker = dialog.getDatePicker();
+        picker.setMinDate(calendar.getTimeInMillis());
 
-        return d;
+        return dialog;
     }
-
-
 }
