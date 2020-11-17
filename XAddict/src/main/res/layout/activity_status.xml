@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dip"
-        android:layout_marginTop="40dip"
+        android:layout_marginTop="20dip"
         android:orientation="vertical">
 
         <LinearLayout
@@ -111,7 +111,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -133,7 +133,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -155,7 +155,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -177,7 +177,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -199,7 +199,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -221,7 +221,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="15dip"
             android:orientation="horizontal">
 
             <TextView
@@ -249,4 +249,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
         android:text="@string/status_savebutton" />
+
+    <Button
+        android:id="@+id/btnReset"
+        style="@style/ButtonStyle"
+        android:layout_width="340dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="@string/status_resetbutton" />
 </LinearLayout>

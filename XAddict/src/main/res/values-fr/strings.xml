@@ -82,7 +82,7 @@
 
     <!-- StatusActivity -->
     <string name="status_title">Statut</string>
-    <string name="status_use">Avez-vous utilisé aujourd\'hui?</string>
+    <string name="status_use">Avez-vous utilisé récemment?</string>
     <string name="status_yesradio">Oui</string>
     <string name="status_noradio">Non</string>
     <string name="status_crave">Quelle est votre envie en ce moment?</string>
@@ -95,6 +95,7 @@
     <string name="status_pain">DOULEUR</string>
     <string name="status_other">AUTRE</string>
     <string name="status_savebutton">Sauvegarder</string>
+    <string name="status_resetbutton">Réinitialiser</string>
 
     <!-- Shared between Drug Activities -->
     <string name="moreinformationbutton">Plus d\'information</string>
