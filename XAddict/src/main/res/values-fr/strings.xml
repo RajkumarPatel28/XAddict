@@ -53,26 +53,23 @@
     </string-array>
 
     <!-- SettingsActivity -->
-    <string name="settings_fullnamevalue">nom complet</string>
-    <string name="settings_phonenumbervalue">numéro de téléphone</string>
-    <string name="settings_fullnameerror">S\'il vous plait entrez votre nom entier</string>
-    <string name="settings_updatedmessage">Profil mis à jour avec succès</string>
+    <string name="settings_updateprofiletitle">Mettre à jour le profil</string>
+    <string name="settings_phonenumbererror">Entrez un numéro de téléphone valide</string>
+    <string name="settings_profilemessage">Profil mis à jour</string>
     <string name="settings_logoutmessage">Déconnexion réussie</string>
+    <string name="settings_feedbackmessage">Merci pour votre avis</string>
     <string name="settings_reviewstitle">Commentaires</string>
     <string name="settings_ratingtitle">Évaluation</string>
     <string name="settings_feedbacktitle">Commentaires sur l\'application</string>
-    <string name="settings_feedbackerror">Veuillez fournir un avis</string>
-    <string name="settings_feedbackmessage">Merci pour votre avis</string>
-    <string name="settings_updateprofiletitle">Mettre à jour le profil</string>
-    <string name="settings_aboutustitle">À propos de nous</string>
     <string name="settings_fullnamehint">Nom complet</string>
     <string name="settings_phonenumberhint">Numéro de téléphone</string>
+    <string name="settings_profiletitle">Profils</string>
+    <string name="settings_aboutustitle">À propos de nous</string>
     <string name="settings_submitbutton">Soumettre</string>
     <string name="settings_logoutbutton">Se déconnecter</string>
-    <string name="settings_namehint">Nom</string>
     <string name="settings_review">Dites-nous un peu plus pourquoi vous avez choisi ce qui précède</string>
     <string name="settings_teamemail">reduceabuseteam@gmail.com</string>
-    <string name="setting_teamname">Réduire l\'équipe de lutte contre les abus:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
+    <string name="setting_teamname">Réduire l\'équipe des abus:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
     <string-array name="schedule_times">
