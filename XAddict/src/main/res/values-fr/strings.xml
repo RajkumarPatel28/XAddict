@@ -131,8 +131,8 @@
     <string name="marijuana_information">L\'herbe est un terme courant et une drogue récréative qui
         provient de la plante de marijuana: la plante de chanvre de cannabis. Le pharmacologiquement
         l\'ingrédient actif de la marijuana est le tétrahydrocannabinol. (THC)\n\nEffets à court terme:\n
-    • Risque accru d\'accident vasculaire cérébral\n• Hallucinations\n• Problèmes sexuels (hommes)\n\nEffets à long terme:\n
-    • Satisfaction à la vie inférieure\n • Baisse du QI\n • Pensée altérée</string>
+        • Risque accru d\'accident vasculaire cérébral\n• Hallucinations\n• Problèmes sexuels (hommes)\n\nEffets à long terme:\n
+        • Satisfaction à la vie inférieure\n • Baisse du QI\n • Pensée altérée</string>
 
     <!-- MethActivity -->
     <string name="meth_title">Méthamphétamine</string>
@@ -140,8 +140,8 @@
         le système nerveux central. Il prend la forme d\'un blanc, inodore, au goût amer poudre
         cristalline qui se dissout facilement dans l\'eau ou l\'alcool. Le pharmacologiquement
         l\'ingrédient actif de la marijuana est le tétrahydrocannabinol. (THC)\n\nEffets à court terme:\n
-    • Perte d\'appétit \n• Dilatation\n• La nausée\n\nEffets à long terme:\n• Carie dentaire sévère \n
-    • Lésions hépatiques, rénales et pulmonaires \n• Psychose</string>
+        • Perte d\'appétit \n• Dilatation\n• La nausée\n\nEffets à long terme:\n• Carie dentaire sévère \n
+        • Lésions hépatiques, rénales et pulmonaires \n• Psychose</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioïdes (Oxycodone)</string>
@@ -149,5 +149,5 @@
         dans l\'opium plante de pavot. Certains opioïdes sur ordonnance sont fabriqués directement à
         partir de la plante et d\'autres sont fabriqués par des scientifiques dans des laboratoires
         utilisant la même structure chimique. \n\nEffets à court terme:\n• Somnolence \n• La nausée\n
-    • Coma\n\n Effets à long terme:\n• La diarrhée\n• Vomissement \n• Douleurs musculaires et osseuses</string>
+        • Coma\n\n Effets à long terme:\n• La diarrhée\n• Vomissement \n• Douleurs musculaires et osseuses</string>
 </resources>

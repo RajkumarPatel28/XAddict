@@ -110,7 +110,7 @@
     <!-- CocaineActivity -->
     <string name="cocaine_title">Cocaine</string>
     <string name="cocaine_information">Cocaine is a strong stimulant, which is most frequently used as
-    a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled
+        a recreational drug. It is most commonly snorted, dissolved and injecting into a vein, or inhaled
         as smoke. \n\n Short term effects:\n• Constricted blood vessels\n• Dilated pupils\n
         • Increase in body temperature\n\n Long term effects:\n• Increased risk for stroke and seizures\n
         • Movement disorders; Parkinson\'s disease\n• Intracerebral hemorrhage</string>
@@ -127,15 +127,15 @@
     <string name="heroin_information">Heroin is a highly addictive opioid drug, and its use has
         repercussions that extend far beyond the individual user. It can be seen as a white or
         brown powder that is made from morphine used from opium poppy plants.\n\n Short term effects:\n
-    • Drowsiness\n• Nausea\n• Coma\n\nLong term effects:\n• Bad teeth\n• Constipation\n• Introversion</string>
+        • Drowsiness\n• Nausea\n• Coma\n\nLong term effects:\n• Bad teeth\n• Constipation\n• Introversion</string>
 
     <!-- MarijuanaActivity -->
     <string name="marijuana_title" translatable="false">Marijuana</string>
     <string name="marijuana_information">Weed is a common street term and recreational drug that
         comes from the marijuana plant: the hemp plant cannabis. The pharmacologically
         active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\nShort term effects:\n
-    • Increased risk of stroke\n• Hallucinations\n• Sexual problems (males)\n\nLong term effects:\n
-    • Lower life satisfaction\n• Decline in IQ\n• Impaired thinking</string>
+        • Increased risk of stroke\n• Hallucinations\n• Sexual problems (males)\n\nLong term effects:\n
+        • Lower life satisfaction\n• Decline in IQ\n• Impaired thinking</string>
 
     <!-- MethActivity -->
     <string name="meth_title">Psychosis</string>
@@ -143,14 +143,14 @@
         affects the central nervous system. It takes the form of a white, odorless, bitter-tasting
         crystalline powder that easily dissolves in water or alcohol. The pharmacologically
         active ingredient in marijuana is tetrahydrocannabinol. (THC)\n\n Short term effects:\n
-    • Loss of appetite \n• Dilation\n• Nausea\n\n Long term effects:\n
-    • Severe tooth decay \n• Liver, kidney, and lung damage \n• Psychosis</string>
+        • Loss of appetite \n• Dilation\n• Nausea\n\n Long term effects:\n
+        • Severe tooth decay \n• Liver, kidney, and lung damage \n• Psychosis</string>
 
     <!-- OpioidsActivity -->
     <string name="opioids_title">Opioids (Oxycodone)</string>
     <string name="opioids_information">Opioids are a class of drugs naturally found in the opium
         poppy plant. Some prescription opioids are made from the plant directly, and others are made
         by scientists in labs using the same chemical structure. \n\nShort term effects:\n
-    • Drowsiness \n• Nausea\n• Coma\n\nLong term effects:\n
-    • Diarrhea\n• Vomiting \n• Muscle and bone pain</string>
+        • Drowsiness \n• Nausea\n• Coma\n\nLong term effects:\n
+        • Diarrhea\n• Vomiting \n• Muscle and bone pain</string>
 </resources>
