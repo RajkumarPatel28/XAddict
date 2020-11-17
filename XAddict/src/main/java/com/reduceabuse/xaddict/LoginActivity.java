@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText etEmailAddress, etPassword, etResetPassword;
     TextView tvForgotPassword;
     ProgressBar pbLogin;
-    FirebaseAuth fbAuth;
+    private FirebaseAuth fbAuth;
     String emailAddress, password;
 
     @Override
