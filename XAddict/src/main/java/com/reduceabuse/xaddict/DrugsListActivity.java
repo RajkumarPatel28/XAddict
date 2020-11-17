@@ -13,7 +13,7 @@ public class DrugsListActivity extends AppCompatActivity {
 
     RecyclerView rvDrugList;
     String[] drugName;
-    int[] drugImages = {R.drawable.cocaine, R.drawable.mdma, R.drawable.heroin, R.drawable.marijuana, R.drawable.meth, R.drawable.opioids};
+    final int[] drugImages = {R.drawable.cocaine, R.drawable.mdma, R.drawable.heroin, R.drawable.marijuana, R.drawable.meth, R.drawable.opioids};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

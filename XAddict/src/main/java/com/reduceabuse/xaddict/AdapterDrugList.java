@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 public class AdapterDrugList extends RecyclerView.Adapter<AdapterDrugList.ViewDrugList> {
 
-    String[] drugName;
-    int[] drugImg;
-    Context context;
+    final String[] drugName;
+    final int[] drugImg;
+    final Context context;
 
     public AdapterDrugList(Context cont, String[] name, int[] img) {
         drugName = name;
@@ -26,9 +26,9 @@ public class AdapterDrugList extends RecyclerView.Adapter<AdapterDrugList.ViewDr
 
     public static class ViewDrugList extends RecyclerView.ViewHolder {
 
-        LinearLayout llList;
-        TextView tvDrugName;
-        ImageView ivDrug;
+        final LinearLayout llList;
+        final TextView tvDrugName;
+        final ImageView ivDrug;
 
         public ViewDrugList(@NonNull View itemView) {
             super(itemView);

@@ -21,7 +21,8 @@
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:src="@drawable/ic_splash" />
+        android:src="@drawable/ic_splash"
+        tools:ignore="ContentDescription" />
 
     <ProgressBar
         android:id="@+id/pbSplash"
