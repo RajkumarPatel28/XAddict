@@ -251,7 +251,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnSave"
                 style="@style/ButtonStyle"
                 android:layout_width="340dip"
                 android:layout_height="wrap_content"
