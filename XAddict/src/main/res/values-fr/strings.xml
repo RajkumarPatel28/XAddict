@@ -72,10 +72,11 @@
     <string name="setting_teamname">Réduire l\'équipe des abus:\n\nAmit Sharma\nMeet Patel\nMuneeb Ahmed\nRajkumar Patel</string>
 
     <!-- ScheduleActivity -->
-    <string-array name="schedule_times">
-        <item>2 PM</item>
-        <item>8 PM</item>
-    </string-array>
+    <string name="schedule_title">Programme</string>
+    <string name="schedule_time">Temps</string>
+    <string name="schedule_bookbutton">Reserve maintenant</string>
+    <string name="schedule_schedulemessage">Programme de session réservé, vous recevrez un appel</string>
+    <string name="schedule_bookmessage">Vous devez réserver un jour à l\'avance</string>
 
     <!-- StatusActivity -->
     <string name="status_title">Statut</string>
