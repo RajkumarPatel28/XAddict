@@ -23,7 +23,7 @@ public class SignupActivity extends AppCompatActivity {
 
     EditText etEmailAddress, etPassword, etConfirmPassword;
     ProgressBar pbSignup;
-    FirebaseAuth fbAuth;
+    private FirebaseAuth fbAuth;
     String emailAddress, password, confirmPassword;
 
     @Override
