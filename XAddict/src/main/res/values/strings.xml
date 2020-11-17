@@ -30,7 +30,7 @@
     <string name="signup_proceedloginbutton">PROCEED TO LOGIN</string>
     <string name="signup_passworderror">Password must be 6 or more characters</string>
     <string name="signup_passwordconfirmerror">Passwords do not match</string>
-    <string name="signup_registrationsuccessmessage">Registration successful</string>
+    <string name="signup_registrationsuccessmessage">Registration successful, check provided email</string>
     <string name="signup_registrationfailuremessage">Registration failed, please try again later</string>
 
     <!-- HomepageActivity -->

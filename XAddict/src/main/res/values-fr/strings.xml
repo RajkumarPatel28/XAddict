@@ -27,7 +27,7 @@
     <string name="signup_proceedloginbutton">PROCÉDER À LA CONNEXION</string>
     <string name="signup_passworderror">Le mot de passe doit contenir au moins 6 caractères</string>
     <string name="signup_passwordconfirmerror">Les mots de passe ne correspondent pas</string>
-    <string name="signup_registrationsuccessmessage">Inscription réussi</string>
+    <string name="signup_registrationsuccessmessage">Inscription réussie, vérifiez l\'e-mail fourni</string>
     <string name="signup_registrationfailuremessage">L\'enregistrement a échoué, veuillez réessayer plus tard</string>
 
     <!-- HomepageActivity -->

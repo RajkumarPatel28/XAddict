@@ -69,9 +69,16 @@ public class SignupActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(SignupActivity.this, getString(R.string.signup_registrationsuccessmessage), Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
-                            startActivity(intent);
+                            fbAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if (task.isSuccessful()) {
+                                        Toast.makeText(SignupActivity.this, getString(R.string.signup_registrationsuccessmessage), Toast.LENGTH_SHORT).show();
+                                        Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
+                                        startActivity(intent);
+                                    }
+                                }
+                            });
                         } else {
                             Toast.makeText(SignupActivity.this, getString(R.string.signup_registrationfailuremessage), Toast.LENGTH_SHORT).show();
                         }
