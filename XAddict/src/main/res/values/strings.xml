@@ -3,6 +3,7 @@
     <string name="splashscreen_title" translatable="false">REDUCE ABUSE</string>
 
     <!-- LoginActivity -->
+    <string name="login_remembermecheckbox">Remember Me</string>
     <string name="login_loginbutton">LOGIN</string>
     <string name="login_forgotpassword">FORGOT PASSWORD?</string>
     <string name="login_needaccount">Don\'t have an account yet?</string>
