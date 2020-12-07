@@ -69,16 +69,6 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
-        Button btnLogout = findViewById(R.id.btnLogout);
-        btnLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(SettingsActivity.this, getString(R.string.settings_logoutmessage), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
-
         Button btnFeedbackSubmit = findViewById(R.id.btnFeedbackSubmit);
         btnFeedbackSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -151,6 +141,12 @@ public class SettingsActivity extends AppCompatActivity {
             case R.id.aboutUs:
                 setTitle(getString(R.string.settings_aboutustitle));
                 vfSettings.setDisplayedChild(2);
+                return true;
+            case R.id.logout:
+                setTitle(getString(R.string.settings_logouttitle));
+                Toast.makeText(SettingsActivity.this, getString(R.string.settings_logoutmessage), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

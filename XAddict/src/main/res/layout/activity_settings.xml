@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="40dip"
+                android:layout_marginTop="60dip"
                 android:ems="14"
                 android:hint="@string/settings_phonenumberhint"
                 android:importantForAutofill="no"
@@ -55,17 +55,9 @@
                 android:layout_width="340dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="65dip"
+                android:layout_marginTop="176dip"
                 android:text="@string/settings_submitbutton" />
 
-            <Button
-                android:id="@+id/btnLogout"
-                style="@style/ButtonStyle"
-                android:layout_width="340dip"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="80dip"
-                android:text="@string/settings_logoutbutton" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dip"
-                android:background="@android:drawable/edit_text"
+                android:background="@drawable/stroke_et"
                 android:ems="17"
                 android:gravity="top"
                 android:hint="@string/settings_review"

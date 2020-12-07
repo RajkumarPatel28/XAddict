@@ -51,6 +51,6 @@
         android:layout_width="340dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="230dip"
+        android:layout_marginTop="270dip"
         android:text="@string/schedule_bookbutton" />
 </LinearLayout>
