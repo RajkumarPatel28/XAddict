@@ -1,5 +1,7 @@
 package com.reduceabuse.xaddict;
 
+// Reduce Abuse
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;

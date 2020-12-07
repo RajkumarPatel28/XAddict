@@ -1,5 +1,7 @@
 package com.reduceabuse.xaddict;
 
+// Reduce Abuse
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

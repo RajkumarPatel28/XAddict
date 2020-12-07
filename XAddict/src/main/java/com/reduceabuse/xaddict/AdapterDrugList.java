@@ -1,5 +1,7 @@
 package com.reduceabuse.xaddict;
 
+// Reduce Abuse
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
