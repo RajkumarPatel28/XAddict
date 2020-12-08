@@ -25,59 +25,38 @@
                 android:layout_height="wrap_content"
                 android:text="@string/settings_updateprofiletitle" />
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/etFullName"
+                style="@style/EditTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dip"
+                android:ems="14"
+                android:hint="@string/settings_fullnamehint"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:orientation="vertical">
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                style="@style/EditTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dip"
+                android:ems="14"
+                android:hint="@string/settings_phonenumberhint"
+                android:importantForAutofill="no"
+                android:inputType="phone" />
 
-                    <EditText
-                        android:id="@+id/etFullName"
-                        style="@style/EditTextStyle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="40dip"
-                        android:ems="14"
-                        android:hint="@string/settings_fullnamehint"
-                        android:importantForAutofill="no"
-                        android:inputType="textPersonName" />
-
-                    <EditText
-                        android:id="@+id/etPhoneNumber"
-                        style="@style/EditTextStyle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="40dip"
-                        android:ems="14"
-                        android:hint="@string/settings_phonenumberhint"
-                        android:importantForAutofill="no"
-                        android:inputType="phone" />
-
-                    <Button
-                        android:id="@+id/btnProfileSubmit"
-                        style="@style/ButtonStyle"
-                        android:layout_width="340dip"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="55dip"
-                        android:text="@string/settings_submitbutton" />
-
-                    <Button
-                        android:id="@+id/btnLogout"
-                        style="@style/ButtonStyle"
-                        android:layout_width="340dip"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="55dip"
-                        android:text="@string/settings_logoutbutton" />
-                </LinearLayout>
-            </ScrollView>
+            <Button
+                android:id="@+id/btnProfileSubmit"
+                style="@style/ButtonStyle"
+                android:layout_width="340dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="49dip"
+                android:text="@string/settings_submitbutton" />
         </LinearLayout>
 
         <LinearLayout
