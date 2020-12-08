@@ -1,5 +1,9 @@
 <resources>
     <!-- LoginActivity -->
+    <string name="login_remembermecheckbox">Souviens-toi de moi</string>
+    <string name="login_emailsharedpref">Adresse e-mail</string>
+    <string name="login_passwordsharedpref">Mot de passe</string>
+    <string name="login_checkboxsharedpref">CheckBox</string>
     <string name="login_loginbutton">S\'IDENTIFIER</string>
     <string name="login_forgotpassword">MOT DE PASSE OUBLIÉ?</string>
     <string name="login_needaccount">Vous n\'avez pas encore de compte?</string>
