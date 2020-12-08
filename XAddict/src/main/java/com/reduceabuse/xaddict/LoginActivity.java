@@ -5,13 +5,16 @@ package com.reduceabuse.xaddict;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -28,7 +31,9 @@ import java.util.Objects;
 
 public class LoginActivity extends AppCompatActivity {
 
+    SharedPreferences sharedPreferences;
     EditText etEmailAddress, etPassword, etResetPassword;
+    CheckBox checkBoxRemember;
     TextView tvForgotPassword;
     ProgressBar pbLogin;
     private FirebaseAuth fbAuth;
@@ -42,6 +47,11 @@ public class LoginActivity extends AppCompatActivity {
 
         etEmailAddress = findViewById(R.id.etEmailAddress);
         etPassword = findViewById(R.id.etPassword);
+        checkBoxRemember = findViewById(R.id.checkBoxRemember);
+
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        getData();
+
         pbLogin = findViewById(R.id.pbLogin);
 
         fbAuth = FirebaseAuth.getInstance();
@@ -61,6 +71,17 @@ public class LoginActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(password)) {
                     etPassword.setError(getString(R.string.login_passworderror));
                     return;
+                }
+
+                if (checkBoxRemember.isChecked()) {
+                    boolean boolIsChecked = checkBoxRemember.isChecked();
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString(getString(R.string.login_emailsharedpref), emailAddress);
+                    editor.putString(getString(R.string.login_passwordsharedpref), password);
+                    editor.putBoolean(getString(R.string.login_checkboxsharedpref), boolIsChecked);
+                    editor.apply();
+                } else {
+                    sharedPreferences.edit().clear().apply();
                 }
 
                 pbLogin.setVisibility(View.VISIBLE);
@@ -141,6 +162,22 @@ public class LoginActivity extends AppCompatActivity {
                 dialog.show();
             }
         });
+    }
+
+    public void getData() {
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+        if (sp.contains(getString(R.string.login_emailsharedpref))) {
+            String emailAddress = sp.getString(getString(R.string.login_emailsharedpref), "");
+            etEmailAddress.setText(emailAddress);
+        }
+        if (sp.contains(getString(R.string.login_passwordsharedpref))) {
+            String password = sp.getString(getString(R.string.login_passwordsharedpref), "");
+            etPassword.setText(password);
+        }
+        if (sp.contains(getString(R.string.login_checkboxsharedpref))) {
+            boolean checkBox = sp.getBoolean(getString(R.string.login_checkboxsharedpref), false);
+            checkBoxRemember.setChecked(checkBox);
+        }
     }
 
     @Override

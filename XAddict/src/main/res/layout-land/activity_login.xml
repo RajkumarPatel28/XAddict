@@ -48,13 +48,25 @@
                 android:importantForAutofill="no"
                 android:inputType="textPassword" />
 
+            <CheckBox
+                android:id="@+id/checkBoxRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_remembermecheckbox"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="10dip"/>
+
             <Button
                 android:id="@+id/btnLogin"
                 style="@style/ButtonStyle"
                 android:layout_width="340dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dip"
+                android:layout_marginTop="5dip"
                 android:text="@string/login_loginbutton" />
 
             <TextView
