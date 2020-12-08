@@ -4,8 +4,12 @@ package com.reduceabuse.xaddict;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -19,6 +23,9 @@ import java.util.Objects;
 
 public class HomepageActivity extends AppCompatActivity {
 
+    private static final int REQUEST_CALL = 1;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +36,7 @@ public class HomepageActivity extends AppCompatActivity {
         btnCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL,
-                        Uri.parse(getString(R.string.homepage_telephone)));
-                startActivity(intent);
+                phoneCall();
             }
         });
 
@@ -59,6 +64,30 @@ public class HomepageActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+    }
+
+    private void phoneCall() {
+        if (ContextCompat.checkSelfPermission(HomepageActivity.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(HomepageActivity.this,
+                    new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+        } else {
+            Intent intent = new Intent(Intent.ACTION_CALL,
+                    Uri.parse(getString(R.string.homepage_telephone)));
+            startActivity(intent);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == REQUEST_CALL) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                phoneCall();
+            } else {
+                Toast.makeText(this, getString(R.string.homepage_permissiondeniedmessage), Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 
     @Override
