@@ -89,6 +89,7 @@
     <string name="schedule_datehint" translatable="false">Date</string>
     <string name="schedule_time">Time</string>
     <string name="schedule_bookbutton">Book Now</string>
+    <string name="schedule_schedulenotificationid" translatable="false">notification</string>
     <string name="schedule_schedulemessage">Session schedule booked, you will receive a call</string>
     <string name="schedule_bookmessage">You must book one day in advance</string>
 

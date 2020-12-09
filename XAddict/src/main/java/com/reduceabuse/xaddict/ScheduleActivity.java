@@ -81,23 +81,23 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
                 }
 
                 saveBooking();
-                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
 
-                    NotificationChannel channel = new NotificationChannel("My Notification", "My Notification", NotificationManager.IMPORTANCE_DEFAULT);
+                Toast.makeText(ScheduleActivity.this, getString(R.string.schedule_schedulemessage), Toast.LENGTH_SHORT).show();
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    NotificationChannel channel = new NotificationChannel(getString(R.string.schedule_schedulenotificationid), getString(R.string.schedule_schedulenotificationid), NotificationManager.IMPORTANCE_DEFAULT);
                     NotificationManager manager = getSystemService(NotificationManager.class);
                     manager.createNotificationChannel(channel);
-
                 }
 
-                NotificationCompat.Builder builder = new NotificationCompat.Builder(ScheduleActivity.this,"My Notification");
-                builder.setContentTitle("XAddict");
+                NotificationCompat.Builder builder = new NotificationCompat.Builder(ScheduleActivity.this, getString(R.string.schedule_schedulenotificationid));
+                builder.setContentTitle(getString(R.string.app_name));
                 builder.setContentText(getString(R.string.schedule_schedulemessage));
                 builder.setSmallIcon(R.drawable.ic_message);
                 builder.setAutoCancel(true);
 
                 NotificationManagerCompat managerCompat = NotificationManagerCompat.from(ScheduleActivity.this);
                 managerCompat.notify(1, builder.build());
-                /*Toast.makeText(ScheduleActivity.this, getString(R.string.schedule_schedulemessage), Toast.LENGTH_SHORT).show();*/
             }
         });
 
