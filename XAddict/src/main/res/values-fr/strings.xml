@@ -39,6 +39,7 @@
     <string name="homepage_talk">Besoin de parler à quelqu\'un?</string>
     <string name="homepage_callbutton">Bien-être ensemble Canada</string>
     <string name="homepage_message">Vous devez vous déconnecter via les paramètres</string>
+    <string name="homepage_updateprofilemessage">Associez un numéro de téléphone à votre profil dans les paramètres</string>
     <string name="homepage_permissiondeniedmessage">Erreur, autoriser l\'autorisation du téléphone</string>
 
     <!-- BottomNavMenu -->
