@@ -59,19 +59,12 @@
         android:layout_marginTop="5dip"
         android:text="@string/login_loginbutton" />
 
-    <com.google.android.gms.common.SignInButton
-         android:id="@+id/googleSignInBtn"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="20dip"
-         android:layout_gravity="center"/>
-
     <TextView
         android:id="@+id/tvForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dip"
+        android:layout_marginTop="50dip"
         android:clickable="true"
         android:focusable="true"
         android:text="@string/login_forgotpassword"
@@ -84,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="55dip"
+        android:layout_marginTop="65dip"
         android:text="@string/login_needaccount"
         android:textColor="@color/colorWhite"
         android:textSize="16sp" />
