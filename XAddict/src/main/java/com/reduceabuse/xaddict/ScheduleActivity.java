@@ -4,18 +4,10 @@ package com.reduceabuse.xaddict;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
-import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -47,8 +39,6 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
     String[] scheduleTimes;
     private FirebaseDatabase database;
     private DatabaseReference ref;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,22 +76,7 @@ public class ScheduleActivity extends AppCompatActivity implements DatePickerDia
                 }
 
                 saveBooking();
-                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
-
-                    NotificationChannel channel = new NotificationChannel("My Notification", "My Notification", NotificationManager.IMPORTANCE_DEFAULT);
-                    NotificationManager manager = getSystemService(NotificationManager.class);
-                    manager.createNotificationChannel(channel);
-
-                }
-
-                NotificationCompat.Builder builder = new NotificationCompat.Builder(ScheduleActivity.this,"My Notification");
-                builder.setContentTitle("XAddict");
-                builder.setContentText(getString(R.string.schedule_schedulemessage));
-                builder.setSmallIcon(R.drawable.ic_message);
-                builder.setAutoCancel(true);
-
-                NotificationManagerCompat managerCompat = NotificationManagerCompat.from(ScheduleActivity.this);
-                managerCompat.notify(1, builder.build());
+                Toast.makeText(ScheduleActivity.this, getString(R.string.schedule_schedulemessage), Toast.LENGTH_SHORT).show();
             }
         });
 
